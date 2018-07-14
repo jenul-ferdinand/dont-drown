@@ -1,0 +1,16 @@
+{
+    "id": "4c562786-5d63-4ff4-a4af-c00382cc4396",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "4c562786-5d63-4ff4-a4af-c00382cc4396",
+    "children": [
+        "216ef621-a197-48f2-bd93-b0d3f69fe083",
+        "522e69a1-0491-4abb-ac65-c208842aa594",
+        "4bd40cac-b4b1-4519-9875-ba9acba07094",
+        "e23f6104-a209-4cae-8cb3-63207f0d8a9a"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Useful Scripts",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

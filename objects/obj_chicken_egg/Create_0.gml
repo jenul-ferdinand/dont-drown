@@ -1,0 +1,2 @@
+randomise();
+alarm[0] = room_speed*30;
