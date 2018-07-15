@@ -1,3 +1,5 @@
+depth = -y;
+
 //Animation
 if (image_angle >= dir-45)
 	{

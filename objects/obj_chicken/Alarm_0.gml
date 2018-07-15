@@ -4,4 +4,4 @@ if (i == 1)
 	{
 		instance_create_layer(x, y, "Items", obj_chicken_egg);
 	}
-alarm[0] = room_speed*60;
+alarm[0] = egg_rate;

@@ -31,7 +31,7 @@ if (hit == true)
 	}
 
 // Become transparent if the player is behind you
-if (collision_circle(x, y-68, 64, obj_player, true, true))
+if (collision_circle(x, y-68, 32, obj_player, true, true))
 	{
 		if (obj_player.state == scr_attack_state)
 			{

@@ -3,6 +3,10 @@ global.hunger = 100;
 global.thirst = 100;
 global.sanity = 100;
 
-alarm[0] = room_speed*10; // Hunger
-alarm[1] = room_speed*5; // Thirst
-alarm[2] = room_speed*15; // Sanity
+hunger_rate = room_speed*20;
+thirst_rate = room_speed*15;
+sanity_rate = room_speed*30;
+
+alarm[0] = hunger_rate; // Hunger
+alarm[1] = thirst_rate; // Thirst
+alarm[2] = sanity_rate; // Sanity

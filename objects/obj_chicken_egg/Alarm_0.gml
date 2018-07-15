@@ -4,6 +4,6 @@ if (i == 1)
 	{
 		instance_change(obj_chicken, true);
 	}
-alarm[0] = room_speed*30;
+alarm[0] = hatch_rate;
 	
 

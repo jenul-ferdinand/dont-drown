@@ -37,4 +37,5 @@ hit = false;
 hp = 100;
 
 //Laying Eggs
-alarm[0] = room_speed*60;
+egg_rate = room_speed*300;
+alarm[0] = egg_rate;

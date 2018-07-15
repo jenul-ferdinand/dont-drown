@@ -9,4 +9,4 @@ else
 		draw_sprite(spr_bluey_shadow, 0, x, y-8);
 		
 	}
-	
+

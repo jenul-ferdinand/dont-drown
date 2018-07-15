@@ -32,7 +32,7 @@ else
 		scr_get_face();
 	}
 
-//Get The Hspd And Vspd
+// Get The Hspd And Vspd
 hspd = lengthdir_x(len, dir);
 vspd = lengthdir_y(len, dir); 
 
@@ -189,8 +189,8 @@ y += vspd;
 
 #endregion
 
-//Control The Sprite
-image_speed = 1;
+// Control The Sprite
+image_speed = .75;
 if (len == 0) image_index = 0;
 
 switch (face)

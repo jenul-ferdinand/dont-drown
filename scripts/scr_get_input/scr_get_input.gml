@@ -9,8 +9,6 @@ walk_key   = keyboard_check(vk_control);
 run_key    = keyboard_check(vk_shift);
 attack_key = keyboard_check(vk_space);
 inv_key    = keyboard_check_pressed(ord("I"));
-	
-
 
 
 
