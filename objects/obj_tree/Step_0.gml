@@ -18,9 +18,9 @@ if (hit == true)
 			}
 		
 		// Starter Axe
-		if (instance_exists(obj_starter_axe))
+		if (instance_exists(obj_stone_axe))
 			{
-				if (obj_player.weapon == obj_starter_axe)
+				if (obj_player.weapon == obj_stone_axe)
 					{
 						global.wood_count += 10;
 					}

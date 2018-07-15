@@ -93,6 +93,34 @@ if (vspd != 0)
 #endregion
 
 
+#region obj_water_collision
+if (place_meeting(x, y, obj_water_collision))
+	{
+		image_speed = .75;
+		if (len == 0) {image_index = 0;}
+		switch (face)
+			{
+				case RIGHT:
+						sprite_index = spr_player_swim_right;
+					break;
+		
+				case LEFT:
+						sprite_index = spr_player_swim_left;
+					break;
+		
+				case DOWN:
+						sprite_index = spr_player_swim_down;
+					break;
+		
+				case UP:
+						sprite_index = spr_player_swim_up;
+					break;
+			}
+	}
+
+#endregion
+
+
 #region obj_tree
 
 // HORIZONTAL
@@ -183,6 +211,8 @@ if (vspd != 0)
 #endregion
 
 
+
+
 // Let The Player Move If It Is Not Colliding
 x += hspd; 
 y += vspd;
@@ -196,18 +226,18 @@ if (len == 0) image_index = 0;
 switch (face)
 	{
 		case RIGHT:
-				sprite_index = spr_bluey_right;
+				sprite_index = spr_player_right;
 			break;
 		
 		case LEFT:
-				sprite_index = spr_bluey_left;
+				sprite_index = spr_player_left;
 			break;
 		
 		case DOWN:
-				sprite_index = spr_bluey_down;
+				sprite_index = spr_player_down;
 			break;
 		
 		case UP:
-				sprite_index = spr_bluey_up;
+				sprite_index = spr_player_up;
 			break;
 	}

@@ -20,6 +20,10 @@ state = scr_move_state;
 
 // COMBAT
 weapon = 0;
+axe = false;
+pick = false;
+sword = false;
+hands = false;
 
 // SPRITE CONTROL
 #macro RIGHT 0

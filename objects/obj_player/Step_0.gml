@@ -1,14 +1,15 @@
 script_execute(state);
 
-//Goto The Crafting Room
-//if (inv_key)
-//	{
-//		room_goto(rm_crafting);
-		
-//	}
+//Slot 1 Is Equipped
+if (instance_exists(ui)) {weapon = ui.slot_1;}
 
-if (instance_exists(ui))
-	{
-		weapon = ui.slot_1;
-		
-	}
+//Weapon Organizing
+if (weapon == obj_stone_axe) {axe = true;}
+else {axe = false;}
+
+if (weapon == obj_stone_pick) {pick = true;}
+else {pick = false;}
+
+if (weapon == obj_hands) {hands = true;}
+else {hands = false;}
+

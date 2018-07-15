@@ -1,35 +1,0 @@
-Converting GML script: ${project_dir}\scripts\ambient_group_create\ambient_group_create.gml
-Converted description /// @description ambient_group_create(x, y, name)/// @param x
-/// @param  y
-/// @param  name
-
-Converting GML script: ${project_dir}\scripts\ambient_group_add\ambient_group_add.gml
-Converted description /// @description ambient_group_add(name, id1, [id2], [id3], ...)/// @param name
-/// @param  id1
-/// @param  [id2]
-/// @param  [id3]
-/// @param  ...
-
-Converting GML script: ${project_dir}\scripts\ambient_group_destroy\ambient_group_destroy.gml
-Converted description /// @description ambient_group_destroy(name, destroyObjectsInGroup)/// @param name
-/// @param  destroyObjectsInGroup
-
-Converting GML script: ${project_dir}\scripts\ambient_group_exists\ambient_group_exists.gml
-Converted description /// @description ambient_group_exists(name)/// @param name
-
-Converting GML script: ${project_dir}\scripts\ambient_get_leader\ambient_get_leader.gml
-Converted description /// @description ambient_get_leader(name)/// @param name
-
-Converting GML script: ${project_dir}\scripts\ambient_get_leader_object\ambient_get_leader_object.gml
-Converted description /// @description ambient_get_leader_object(id)/// @param id
-
-Converting GML script: ${project_dir}\scripts\ambient_set_settings\ambient_set_settings.gml
-Converted description /// @description ambient_set_settings(leader, maximumRadius, randomMovePercentage, minimumSpeed, maximumSpeed)/// @param leader
-/// @param  maximumRadius
-/// @param  randomMovePercentage
-/// @param  minimumSpeed
-/// @param  maximumSpeed
-
-Added compatibility script 'instance/instance_create.gml'
-Added compatibility script 'object/object_get_depth.gml'
-Added compatibility script '__global_object_depths.gml'

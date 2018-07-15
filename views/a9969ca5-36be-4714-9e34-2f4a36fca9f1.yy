@@ -6,14 +6,9 @@
     "children": [
         "f29ff65c-8be4-4b35-b52c-cc20c61f1c0d",
         "ffa2e39f-c6ca-4786-bafb-89b0015e13dc",
-        "39aee5c8-7003-4af7-ae5f-98f0b19758fb",
-        "a35933cf-653c-45a8-92cc-995b620650e4",
-        "773023fd-f86d-4125-b7f9-6722e0491b3c",
-        "55c1c6f6-90c9-4301-92a7-48f5cf40304d",
-        "3d3ffbcd-ce58-47b7-b832-f157b5776c7d",
-        "4ce5eb15-94a4-42f6-a228-1a87fa8f254d",
-        "06f0f179-c6d2-41fa-aa8d-1db36b4d1be5",
-        "f452c443-bfec-42fe-b485-4bd47f189a5a"
+        "78ce02b3-6b8f-4337-9e72-7934f90236ee",
+        "e6687af0-9a9e-43c7-92e0-cf46876534e4",
+        "44ba79d4-0f99-4c28-b994-963353896f11"
     ],
     "filterType": "GMSprite",
     "folderName": "Bluey",

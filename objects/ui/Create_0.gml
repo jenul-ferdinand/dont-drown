@@ -2,8 +2,8 @@ depth = -5;
 display_set_gui_size(640, 360);
 
 slot_1 = obj_hands;
-slot_2 = obj_starter_axe;
-slot_3 = obj_starter_pick;
+slot_2 = obj_stone_axe;
+slot_3 = obj_stone_pick;
 slot_4 = noone;
 slot_5 = noone;
 

@@ -17,9 +17,9 @@ if (hit == true)
 		}
 	
 	//Starter Pick
-	if (instance_exists(obj_starter_pick))
+	if (instance_exists(obj_stone_pick))
 		{
-		if (obj_player.weapon == obj_starter_pick)
+		if (obj_player.weapon == obj_stone_pick)
 			{
 			global.stone_count += 10;
 			}
