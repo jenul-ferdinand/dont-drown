@@ -1,10 +1,10 @@
 {
-    "id": "f537eb1e-7024-41a6-9845-5e8e3c242ae7",
+    "id": "a1de3223-2c82-4ebd-b717-9b32c60712c8",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "f537eb1e-7024-41a6-9845-5e8e3c242ae7",
+    "name": "a1de3223-2c82-4ebd-b717-9b32c60712c8",
     "children": [
-        "dabf064d-f7d0-4c8f-b71d-ea00345bd837"
+        
     ],
     "filterType": "GMScript",
     "folderName": "Inventory",
