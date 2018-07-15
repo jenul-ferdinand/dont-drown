@@ -1,1 +1,1 @@
-room_goto(rm_one);
+room_goto_previous();

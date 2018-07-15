@@ -1,7 +1,8 @@
 switch (room)
 	{
 		// Put Rooms That You DO Want To Draw Here
-		case rm_one:
+		case rm_island_1:
+		case rm_island_2:
 		
 		//
 			
