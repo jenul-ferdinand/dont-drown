@@ -6,7 +6,8 @@
     "children": [
         "3a989fbb-096a-45b7-81cb-7bd504f5728a",
         "738d4830-6e37-4add-a676-271dff15879a",
-        "6e3e6ff7-18f4-4899-875f-ebd1481cbab8"
+        "6e3e6ff7-18f4-4899-875f-ebd1481cbab8",
+        "bac6b8bc-e0f9-4a45-b867-bbd63bf646d7"
     ],
     "filterType": "GMObject",
     "folderName": "Enviroment",

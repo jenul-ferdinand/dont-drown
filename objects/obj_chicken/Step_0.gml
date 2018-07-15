@@ -28,7 +28,7 @@ else if (direction == ANIMAL_DOWN)
 		y += m_rate;	
 	}
 	
-//Combat
+// Combat
 if (hp <= 0)
 	{
 		instance_change(obj_meat, true);

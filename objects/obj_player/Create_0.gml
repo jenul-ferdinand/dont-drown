@@ -28,15 +28,15 @@ weapon = 0;
 #macro DOWN 3
 face = RIGHT;
 
-// Home Made Colours
-#macro c_brown make_colour_rgb(102, 51, 0)
-
 // Simple Resources Counting System
 global.stone_count = 0;
 global.wood_count = 0;
 
 // Create The U.I Object
 instance_create_layer(x, y, "Collisions", ui);
+
+// Home Made Colours
+#macro c_brown make_colour_rgb(102, 51, 0)
 
 
 

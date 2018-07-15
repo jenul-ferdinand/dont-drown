@@ -2,7 +2,7 @@
     "id": "ffa2e39f-c6ca-4786-bafb-89b0015e13dc",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bluey_shadow",
+    "name": "spr_player_shadow",
     "For3D": false,
     "HTile": false,
     "VTile": false,

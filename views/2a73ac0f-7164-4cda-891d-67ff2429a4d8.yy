@@ -11,7 +11,8 @@
         "55da42e2-2934-417a-9e6a-4b936b831e44",
         "ea329cc4-7195-4183-83ad-bf5d30292f50",
         "f8f074bb-b37b-4b6a-8906-3eab139e9e2f",
-        "3fe8147d-a3fe-4ea3-8a9f-77e9535b72a9"
+        "3fe8147d-a3fe-4ea3-8a9f-77e9535b72a9",
+        "1149a0a3-f544-4f8f-a239-e7c51b0a1247"
     ],
     "filterType": "GMSprite",
     "folderName": "Buttons & User Interface",
