@@ -1274,7 +1274,7 @@
             "Key": "c0cd1086-74db-4367-9259-63ac945d508b",
             "Value": {
                 "id": "bc024c8c-b081-490b-b04f-0ec854660b09",
-                "resourcePath": "objects\\obj_water_collision\\obj_water_collision.yy",
+                "resourcePath": "objects\\obj_ground_collision\\obj_ground_collision.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -2,7 +2,7 @@
     "id": "c0cd1086-74db-4367-9259-63ac945d508b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_water_collision",
+    "name": "obj_ground_collision",
     "eventList": [
         
     ],

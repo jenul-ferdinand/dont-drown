@@ -93,34 +93,6 @@ if (vspd != 0)
 #endregion
 
 
-#region obj_water_collision
-if (place_meeting(x, y, obj_water_collision))
-	{
-		image_speed = .75;
-		if (len == 0) {image_index = 0;}
-		switch (face)
-			{
-				case RIGHT:
-						sprite_index = spr_player_swim_right;
-					break;
-		
-				case LEFT:
-						sprite_index = spr_player_swim_left;
-					break;
-		
-				case DOWN:
-						sprite_index = spr_player_swim_down;
-					break;
-		
-				case UP:
-						sprite_index = spr_player_swim_up;
-					break;
-			}
-	}
-
-#endregion
-
-
 #region obj_tree
 
 // HORIZONTAL
@@ -219,25 +191,56 @@ y += vspd;
 
 #endregion
 
-// Control The Sprite
-image_speed = .75;
-if (len == 0) image_index = 0;
-
-switch (face)
+#region obj_water_collision
+if (place_meeting(x, y, obj_ground_collision))
 	{
-		case RIGHT:
-				sprite_index = spr_player_right;
-			break;
+		// Control The Sprite
+		image_speed = .75;
+		if (len == 0) image_index = 0;
+
+		switch (face)
+			{
+				case RIGHT:
+						sprite_index = spr_player_right;
+					break;
 		
-		case LEFT:
-				sprite_index = spr_player_left;
-			break;
+				case LEFT:
+						sprite_index = spr_player_left;
+					break;
 		
-		case DOWN:
-				sprite_index = spr_player_down;
-			break;
+				case DOWN:
+						sprite_index = spr_player_down;
+					break;
 		
-		case UP:
-				sprite_index = spr_player_up;
-			break;
+				case UP:
+						sprite_index = spr_player_up;
+					break;
+			}
 	}
+else
+	{
+		image_speed = .75;
+		if (len == 0) {image_index = 0;}
+		switch (face)
+			{
+				case RIGHT:
+						sprite_index = spr_player_swim_right;
+					break;
+		
+				case LEFT:
+						sprite_index = spr_player_swim_left;
+					break;
+		
+				case DOWN:
+						sprite_index = spr_player_swim_down;
+					break;
+		
+				case UP:
+						sprite_index = spr_player_swim_up;
+					break;
+			}
+	}
+
+#endregion
+
+
