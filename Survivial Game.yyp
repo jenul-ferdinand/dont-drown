@@ -559,14 +559,6 @@
             }
         },
         {
-            "Key": "543f0093-f2ad-4585-bab4-dab267087c59",
-            "Value": {
-                "id": "c2c75ecc-d4d7-4214-8ca2-30383c244d4e",
-                "resourcePath": "views\\543f0093-f2ad-4585-bab4-dab267087c59.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "55a46f1c-b017-4c96-8360-d0b2c3b8d5dd",
             "Value": {
                 "id": "0cb20614-f5fd-4dff-ac00-0779708933fd",
@@ -916,14 +908,6 @@
                 "id": "7a96095b-d4f3-4b20-9add-3a6b6f3c90c2",
                 "resourcePath": "scripts\\angle_approach\\angle_approach.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8a80abe1-9222-42b4-8309-65c772c2749e",
-            "Value": {
-                "id": "249f993a-5965-4748-8d35-c34eba14968d",
-                "resourcePath": "shaders\\shd_day_and_night\\shd_day_and_night.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -1612,14 +1596,6 @@
                 "id": "b1709ca2-28a6-4dc1-8412-8a11e690252e",
                 "resourcePath": "objects\\obj_collision\\obj_collision.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fd64df3a-25f7-4452-b7bb-ca9eb9b4cc25",
-            "Value": {
-                "id": "ac75ab98-1745-424f-955e-42a4fff4d52a",
-                "resourcePath": "shaders\\shd_alpha\\shd_alpha.yy",
-                "resourceType": "GMShader"
             }
         },
         {
