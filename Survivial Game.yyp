@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "082db7c9-d8f6-477c-ae6f-caaf0c240919",
-            "Value": {
-                "id": "d00f7f94-c84e-47a5-8d64-f1694e9db90f",
-                "resourcePath": "sprites\\sprRedGem\\sprRedGem.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0bbe2b44-7b59-49ab-9588-bb718843450a",
             "Value": {
                 "id": "d4a797dc-46ac-4367-a4af-9b49fb3b5ec0",
@@ -159,14 +151,6 @@
             }
         },
         {
-            "Key": "17c8cdd3-23f9-4f48-8330-a43c4a85ec4b",
-            "Value": {
-                "id": "93680108-f06b-4975-89b7-3a555c54551d",
-                "resourcePath": "sprites\\sprChest\\sprChest.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1a9653e4-0ed1-4b05-8341-7c2939efe1ae",
             "Value": {
                 "id": "db812117-b60c-4aef-bf43-e4c36e8028d6",
@@ -207,22 +191,6 @@
             }
         },
         {
-            "Key": "23e8eed6-ff3d-4cc0-839d-2e07145e7377",
-            "Value": {
-                "id": "bc11a41a-0e3c-401a-9f59-0e868c0921f4",
-                "resourcePath": "sprites\\sprNecklace\\sprNecklace.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2400cc90-4a14-46a9-b98f-1ed99cc3161c",
-            "Value": {
-                "id": "665fae20-b013-4b7e-b90b-01da9f3a4a74",
-                "resourcePath": "sprites\\sprFireBall\\sprFireBall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "240e4096-22b9-4450-9d8b-3ca25be91de9",
             "Value": {
                 "id": "391c5311-a3d0-43f4-bf2a-160b7a3fcfc7",
@@ -236,14 +204,6 @@
                 "id": "c0f58022-4170-49cc-a06e-386d28205a61",
                 "resourcePath": "scripts\\scr_merge_number\\scr_merge_number.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "27772709-88a9-4b41-a37f-f41b5a35ce4b",
-            "Value": {
-                "id": "c620d80f-89e6-40b2-b417-f76f303d3e9a",
-                "resourcePath": "sprites\\sprGreenBook\\sprGreenBook.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,14 +247,6 @@
             }
         },
         {
-            "Key": "2bf3536e-0be1-4878-806b-a2dcdd742211",
-            "Value": {
-                "id": "52786b19-d89d-4087-a8db-890404647c45",
-                "resourcePath": "sprites\\sprGreenCloak\\sprGreenCloak.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2c04b195-1738-4858-a1e6-8e45a6df60c1",
             "Value": {
                 "id": "9313d275-e851-43b4-a912-2cb4aec4f5c7",
@@ -308,22 +260,6 @@
                 "id": "4b2a0c51-b1d4-4435-afe3-b9f2d55157a5",
                 "resourcePath": "scripts\\percent_chance\\percent_chance.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2ffd285c-f1e8-4f77-937e-d6a65aa8dd5a",
-            "Value": {
-                "id": "bd8223cc-433d-4ed7-b133-ed021ab0fc09",
-                "resourcePath": "sprites\\sprHealthPotion\\sprHealthPotion.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "31a24a2d-2e89-4918-adc6-4983626c7d8c",
-            "Value": {
-                "id": "7dec54f3-98c1-49f4-a690-ebd27df06826",
-                "resourcePath": "sprites\\sprBlueBerry\\sprBlueBerry.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,14 +367,6 @@
             }
         },
         {
-            "Key": "3fe8147d-a3fe-4ea3-8a9f-77e9535b72a9",
-            "Value": {
-                "id": "f0cfd419-313e-4508-8ca3-24c15953af0b",
-                "resourcePath": "views\\3fe8147d-a3fe-4ea3-8a9f-77e9535b72a9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "41fa1aef-21c8-4e7b-8231-6aeaa59341c6",
             "Value": {
                 "id": "f595635c-fcb9-4fda-8510-5da3c453624a",
@@ -471,14 +399,6 @@
             }
         },
         {
-            "Key": "46e0c556-2593-4bb8-b272-bb01be17e174",
-            "Value": {
-                "id": "dbd4db36-dd6b-4811-bc30-601eb4d6db96",
-                "resourcePath": "sprites\\sprWood\\sprWood.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "478406eb-5453-4d45-9980-d9a3f0b3f6cd",
             "Value": {
                 "id": "9d9aa138-f6d9-4d7f-bb3a-af5ba00a343c",
@@ -492,14 +412,6 @@
                 "id": "501237e8-4eee-4f0a-94c4-28b9e068f269",
                 "resourcePath": "views\\49a36ff5-7422-4a1e-8568-0615bab36749.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "49b31819-58a1-44d3-acab-7b98f730b1bc",
-            "Value": {
-                "id": "b9423552-6312-40a5-99ca-00609922057d",
-                "resourcePath": "sprites\\sprArmor\\sprArmor.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -596,14 +508,6 @@
                 "id": "025b35a2-9d29-46c9-9d68-f3f8946f5864",
                 "resourcePath": "views\\596b932e-b511-49bf-8d80-9c480fb57aca.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5c5674f1-c6e5-449e-8d91-28a71a394ae4",
-            "Value": {
-                "id": "e22eda91-5fcc-408e-9735-c8eab156e2e9",
-                "resourcePath": "sprites\\sprBlueBook\\sprBlueBook.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1135,22 +1039,6 @@
             }
         },
         {
-            "Key": "adaa4adf-c517-4946-be98-0f161844eeb6",
-            "Value": {
-                "id": "fea394f9-5a82-48a4-9a34-5ec4ddc62ccb",
-                "resourcePath": "sprites\\sprMagicEssence\\sprMagicEssence.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "aff08522-02c7-4b44-9dc7-87fb82093f93",
-            "Value": {
-                "id": "4aeec0e1-d656-40d2-887c-d39ed8f43453",
-                "resourcePath": "sprites\\sprPurpleShirt\\sprPurpleShirt.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b2b0f94a-7014-4b5c-b60d-67f476d527c2",
             "Value": {
                 "id": "5373c821-0855-4f66-aa26-986b5c4d514a",
@@ -1163,22 +1051,6 @@
             "Value": {
                 "id": "600ab552-8719-437f-83a3-151181db766f",
                 "resourcePath": "sprites\\spr_chicken_idle\\spr_chicken_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b56f7587-f092-40b6-a1fa-c7e5780bfb53",
-            "Value": {
-                "id": "4b08bcba-a183-4d7c-af58-1f180a5d9918",
-                "resourcePath": "sprites\\sprOrnament\\sprOrnament.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b599178e-c44e-4af7-bc31-45af92974c9e",
-            "Value": {
-                "id": "c51464d6-294b-4066-a1e2-0e88b2bba312",
-                "resourcePath": "sprites\\sprPaper\\sprPaper.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1196,22 +1068,6 @@
                 "id": "a4128cd9-e8ba-4154-9a68-f36bc01701df",
                 "resourcePath": "scripts\\string_split\\string_split.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b9612b03-874a-439c-8639-b79e6b0c5851",
-            "Value": {
-                "id": "b4db7a1a-45e2-412a-beea-7c32a272ae9f",
-                "resourcePath": "sprites\\sprRedBerry\\sprRedBerry.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b9ea9e31-3afa-4261-880f-c129981315c4",
-            "Value": {
-                "id": "a840698e-3e4b-4aee-80a6-f981c4d24e58",
-                "resourcePath": "sprites\\sprMagicStone\\sprMagicStone.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1343,22 +1199,6 @@
             }
         },
         {
-            "Key": "d25a70c9-f22f-458d-825a-0998e3614b33",
-            "Value": {
-                "id": "e824acd8-c29f-455e-bbab-06cc21eabd2e",
-                "resourcePath": "sprites\\sprSword\\sprSword.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d3663668-b8d5-40ea-a23e-86b14bd6def6",
-            "Value": {
-                "id": "b84ec442-4996-4fa6-bbd1-d153a428e5fd",
-                "resourcePath": "sprites\\sprFlowerBunch\\sprFlowerBunch.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d5aec07d-1e43-4793-a2f5-33a1f3090f63",
             "Value": {
                 "id": "72228a53-f63b-47ce-b191-3113b0100c1f",
@@ -1484,14 +1324,6 @@
                 "id": "9919c5d2-f46f-43d4-8ddc-7d306660d6bd",
                 "resourcePath": "views\\ea96d5c2-aaa9-4c1d-9df9-33a8d9efb231.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eaf5f97e-7587-4c89-b9e6-c362e060ccdc",
-            "Value": {
-                "id": "0779e218-59e3-431f-b88e-f5df8b2d23f9",
-                "resourcePath": "sprites\\sprGoldCoin\\sprGoldCoin.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
