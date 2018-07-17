@@ -36,9 +36,6 @@ face = RIGHT;
 global.stone_count = 0;
 global.wood_count = 0;
 
-// Create The U.I Object
-instance_create_layer(x, y, "Collisions", ui);
-
 // Home Made Colours
 #macro c_brown make_colour_rgb(102, 51, 0)
 

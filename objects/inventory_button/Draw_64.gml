@@ -1,5 +1,6 @@
 var item = global.inventory[slot];
-var click = mouse_check_button_pressed(mb_left);
+var lclick = mouse_check_button_pressed(mb_left);
+var rclick = mouse_check_button_pressed(mb_right);
 
 var mousex = device_mouse_x_to_gui(0);
 var mousey = device_mouse_y_to_gui(0);
@@ -17,7 +18,7 @@ if (!global.show_inv)
 		draw_set_colour(-1);
 	
 		// Clicking
-		if (click)
+		if (lclick)
 		{
 			if (item != -1)
 			{
@@ -29,15 +30,40 @@ if (!global.show_inv)
 			}
 			global.mouse_item = item;
 		}
+		
+		if (rclick)
+		{
+			if (item != -1)
+			{
+				switch (item)
+				{
+					// Stone Axe
+					case 0:
+					{
+						obj_player.weapon = obj_stone_axe;	
+					}
+					break;
+					
+					// Stone Pick
+					case 1:
+					{
+						obj_player.weapon = obj_stone_pick;	
+					}
+					break;
+				}
+			}
+		}	
 	}
 }
 
 // Draw The Item Sprite
-if (item != -1)
+if (!global.show_inv)
 {
-	draw_sprite(spr_items, item, x, y);
+	if (item != -1)
+	{
+		draw_sprite(spr_items, item, x, y);
+	}
 }
-
 
 
 

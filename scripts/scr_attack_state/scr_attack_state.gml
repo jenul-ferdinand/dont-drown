@@ -7,22 +7,20 @@ if (image_index >= 5 and image_index < 5.4)
 	{
 		if (!instance_exists(weapon))
 			{
-				if (ui.slot_1 != noone)
+				with (instance_create_layer(x,y, "Combat", weapon))
 					{
-						with (instance_create_layer(x,y, "Combat", weapon))
+						dir = obj_player.face*90;
+						image_angle = (obj_player.face*90)+45;
+						//As soon as the weapon is created change the mask index of obj_pine_tree
+						with (obj_tree)
 							{
-								dir = obj_player.face*90;
-								image_angle = (obj_player.face*90)+45;
-								//As soon as the weapon is created change the mask index of obj_pine_tree
-								with (obj_tree)
+								if (instance_exists(obj_player.weapon))
 									{
-										if (instance_exists(obj_player.weapon))
-											{
-												mask_index = spr_pine_tree_collision;	
-											}
+										mask_index = spr_pine_tree_collision;	
 									}
 							}
 					}
+					
 			}
 	}
 

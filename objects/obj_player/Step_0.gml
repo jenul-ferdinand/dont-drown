@@ -1,7 +1,7 @@
 script_execute(state);
 
 //Slot 1 Is Equipped
-if (instance_exists(ui)) {weapon = ui.slot_1;}
+//if (instance_exists(ui)) {weapon = inventory.;}
 
 //Weapon Organizing
 if (weapon == obj_stone_axe) {axe = true;}
