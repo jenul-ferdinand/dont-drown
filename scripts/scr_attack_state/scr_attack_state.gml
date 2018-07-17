@@ -30,20 +30,20 @@ if (image_index >= 5 and image_index < 5.4)
 // Switch To The Attack Animation Depending On Which Direction We Are Facing
 switch (sprite_index)
 	{
-		case spr_bluey_down:
-				sprite_index = spr_bluey_attack_down;
+		case spr_player_down:
+				sprite_index = spr_player_attack_down;
 			break;
 		
-		case spr_bluey_up:
-				sprite_index = spr_bluey_attack_up;
+		case spr_player_up:
+				sprite_index = spr_player_attack_up;
 			break;
 		
-		case spr_bluey_right:
-				sprite_index = spr_bluey_attack_right;
+		case spr_player_right:
+				sprite_index = spr_player_attack_right;
 			break;
 		
-		case spr_bluey_left:
-				sprite_index = spr_bluey_attack_left;
+		case spr_player_left:
+				sprite_index = spr_player_attack_left;
 			break;
 	}
 
@@ -58,22 +58,22 @@ if (image_index >= first_index and image_index < last_index)
 	
 	switch (sprite_index)
 		{
-			case spr_bluey_attack_down:
+			case spr_player_attack_down:
 					xx = x;
 					yy = y+16;
 				break;
 				
-			case spr_bluey_attack_up:
+			case spr_player_attack_up:
 					xx = x;
 					yy = y-16;
 				break;
 			
-			case spr_bluey_attack_right:
+			case spr_player_attack_right:
 					xx = x+16;
 					yy = y;
 				break;
 				
-			case spr_bluey_attack_left:
+			case spr_player_attack_left:
 					xx = x-16;
 					yy = y;
 				break;
