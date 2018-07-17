@@ -9,7 +9,7 @@
         "ca9943e6-6d50-4821-a1e0-4d2d51ccdf1a"
     ],
     "filterType": "GMObject",
-    "folderName": "Inventory - By Shaun Spalding",
+    "folderName": "Inventory",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

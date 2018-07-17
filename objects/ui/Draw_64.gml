@@ -68,7 +68,6 @@ if (slot_5 != noone)
 			}
 	}
 	
-	
 
 
 

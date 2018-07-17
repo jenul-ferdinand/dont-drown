@@ -11,7 +11,7 @@
         "f1a07338-090e-4e8a-909a-5e2efae9f14b"
     ],
     "filterType": "GMScript",
-    "folderName": "Inventory - Shaun Spalding",
+    "folderName": "Inventory ",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

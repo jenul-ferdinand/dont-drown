@@ -8,7 +8,7 @@
         "acd7617f-5a84-44e2-9cf6-2967cbf3f9ed"
     ],
     "filterType": "GMSprite",
-    "folderName": "Inventory - Shaun Spalding",
+    "folderName": "Inventory",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
