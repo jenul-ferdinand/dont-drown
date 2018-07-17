@@ -26,7 +26,7 @@ if (!global.show_inv)
 			}
 			if (global.mouse_item != -1)
 			{
-				scr_pickup_slot(global.mouse_item, slot)
+				scr_pickup_slot(global.mouse_item, slot);
 			}
 			global.mouse_item = item;
 		}

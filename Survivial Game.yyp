@@ -1199,6 +1199,14 @@
             }
         },
         {
+            "Key": "c6217bb0-6f1e-4e30-b7b6-c8192422449b",
+            "Value": {
+                "id": "5eff23c3-06f9-445e-950f-cc9fbbc67aa1",
+                "resourcePath": "fonts\\fnt_inventory_digits\\fnt_inventory_digits.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c6a695ed-c3b7-47de-b040-930a5e690901",
             "Value": {
                 "id": "afd10c94-90c1-478b-a229-25969504186d",

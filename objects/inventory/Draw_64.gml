@@ -25,6 +25,14 @@ if (!global.show_inv)
 		draw_sprite(spr_border, 0, ix, iy);
 		button[i].x = ix;
 		button[i].y = iy;
+		
+		// Item Numbers
+		if (global.inventory[i] != -1)
+		{
+			draw_set_font(fnt_inventory_digits);
+			draw_text(ix + 4, iy, string(global.item_amount[i]));
+			draw_set_font(-1);
+		}
 	}
 }
 
