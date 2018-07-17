@@ -4,7 +4,9 @@
     "mvc": "1.1",
     "name": "f3a31fef-cf10-45a9-92f0-aafc905bf9ec",
     "children": [
-        "d4a52693-ded8-479c-a494-2d4d0157ff81"
+        "d4a52693-ded8-479c-a494-2d4d0157ff81",
+        "7a2b591d-80a1-4e0e-8a31-8cad453f9831",
+        "ca9943e6-6d50-4821-a1e0-4d2d51ccdf1a"
     ],
     "filterType": "GMObject",
     "folderName": "Inventory - By Shaun Spalding",

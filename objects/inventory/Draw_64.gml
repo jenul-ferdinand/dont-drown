@@ -1,6 +1,6 @@
-display_set_gui_size(-1, -1);
+//display_set_gui_size(-1, -1);
 
-if (g_show_inv)
+if (!global.show_inv)
 {
 	// Draw The Black Rectangle
 	var x1, x2, y1, y2;
@@ -17,16 +17,15 @@ if (g_show_inv)
 	draw_set_alpha(1);
 	
 	// Draw The Slots
-	for (var i = 0; i < g_max_items; i++)
+	for (var i = 0; i < global.max_items; i++)
 	{
-		draw_sprite(spr_border, 0, ((x1 + 24) + (i * 40)), y2 - 24)
+		var ix = x1 + 20 + (i * 40);
+		var iy = y2 - 24;
 		
-		// Check If The i Value We Are At Is Equal To An Item
-		if (global.inventory[i] != -1)
-		{
-			draw_sprite(spr_items, global.inventory[i], ((x1 + 24) + (i * 40)), y2 - 24);
-		}
+		draw_sprite(spr_border, 0, ix, iy);
+		button[i].x = ix;
+		button[i].y = iy;
 	}
 }
 
-display_set_gui_size(640, 360);
+//display_set_gui_size(640, 360);

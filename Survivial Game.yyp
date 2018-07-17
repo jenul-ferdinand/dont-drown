@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "7a2b591d-80a1-4e0e-8a31-8cad453f9831",
+            "Value": {
+                "id": "3fd319d1-ab55-48af-8196-70ebf23c787f",
+                "resourcePath": "objects\\inventory_button\\inventory_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b7f9772-3ca7-452f-8551-18171727e243",
             "Value": {
                 "id": "62a0bacb-fb35-4d2c-a80c-9837525ef06f",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "a2e8c854-d78d-4977-9384-7837732d111d",
+            "Value": {
+                "id": "d4643004-6fa7-4312-a383-557aa65354a9",
+                "resourcePath": "scripts\\scr_drop_slot\\scr_drop_slot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a2fa093d-3fa2-4ad3-b4ae-948a231da3d6",
             "Value": {
                 "id": "c9ef67c6-2b98-4538-a581-1058942321ae",
@@ -1071,9 +1087,9 @@
             }
         },
         {
-            "Key": "ada41c25-0d9d-4c29-847d-b750660b42db",
+            "Key": "acd7617f-5a84-44e2-9cf6-2967cbf3f9ed",
             "Value": {
-                "id": "cfb37548-888b-4805-a674-574e8c60aa7d",
+                "id": "cb6ad9ca-6c53-4672-aa48-9edb0e5b3eb7",
                 "resourcePath": "sprites\\spr_items\\spr_items.yy",
                 "resourceType": "GMSprite"
             }
@@ -1159,6 +1175,14 @@
             }
         },
         {
+            "Key": "bf793383-877f-4b96-bb69-2e19ac72025d",
+            "Value": {
+                "id": "d383c13a-164b-463a-a9ad-984ab48f6ed1",
+                "resourcePath": "scripts\\scr_pickup_slot\\scr_pickup_slot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c0cd1086-74db-4367-9259-63ac945d508b",
             "Value": {
                 "id": "bc024c8c-b081-490b-b04f-0ec854660b09",
@@ -1196,6 +1220,14 @@
                 "id": "777efe39-e712-4aae-b86d-e7a35fbdfe60",
                 "resourcePath": "fonts\\fnt_crafting\\fnt_crafting.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "ca9943e6-6d50-4821-a1e0-4d2d51ccdf1a",
+            "Value": {
+                "id": "e4da6f4a-c333-4541-8c32-61068a9c2647",
+                "resourcePath": "objects\\inventory_mouse_item\\inventory_mouse_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1556,7 +1588,9 @@
         "1093595d-66df-41af-ba00-474ce4ab634d",
         "25d40d76-cbd8-400b-a9f0-ed92c9325a79",
         "a845d19d-06d7-4d8a-a82c-dd79ec68092b",
+        "bf793383-877f-4b96-bb69-2e19ac72025d",
         "218d9b43-c67c-45cf-97df-a8f634bfcfee",
+        "a2e8c854-d78d-4977-9384-7837732d111d",
         "f1a07338-090e-4e8a-909a-5e2efae9f14b"
     ],
     "tutorial": ""

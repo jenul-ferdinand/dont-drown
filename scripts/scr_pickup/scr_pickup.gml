@@ -1,7 +1,7 @@
-//@desc scr_pickup(item_number);
+///@desc scr_pickup(item_number);
 
 // Slot Checking Loop
-for (var i = 0; i < g_max_items; i++)
+for (var i = 0; i < global.max_items; i++)
 {
 	// If The Slot We Currently Checked Is Empty
 	if (global.inventory[i] == -1)

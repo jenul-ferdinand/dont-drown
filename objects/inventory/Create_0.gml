@@ -1,5 +1,5 @@
 // Draw Infront Of Everything Else
-depth = -y;
+depth = -1000;
 
 /*
 Items
@@ -9,16 +9,21 @@ Items
 */
 
 // Display Inventory?
-globalvar g_show_inv; 
-g_show_inv = true;
-
+global.show_inv = true;
 // Total Amount Of Slots In The Inventory
-globalvar g_max_items;
-g_max_items = 5;
+global.max_items = 16;
 
 // Array
-for (var i = 0; i < g_max_items; i++)
+for (var i = 0; i < global.max_items; i++)
 {
 	global.inventory[i] = -1;
+	button[i] = instance_create_depth(0, 0, -1001,inventory_button);
+	button[i].slot = i;
 }
+
+// What Is The Mouse Holding
+global.mouse_item = -1;
+
+// Object Thats Gonna Follow The Mouse Around
+instance_create_depth(0, 0, -1002, inventory_mouse_item);
 
