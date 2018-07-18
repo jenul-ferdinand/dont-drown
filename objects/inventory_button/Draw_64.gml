@@ -60,6 +60,24 @@ if (!global.show_inv)
 				}
 			}
 		}
+		
+		
+		if (keyboard_check(vk_shift) and mouse_check_button_pressed(mb_right))
+		{
+			if (item != -1)
+			{
+				switch (item)
+				{
+					case 0:
+					{
+						scr_drop(slot);
+						instance_create_layer(
+					}
+				}
+			}
+		}
+		
+		
 	}
 }
 

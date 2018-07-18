@@ -4,12 +4,29 @@
     "mvc": "1.1",
     "name": "7860eb79-ea8f-428a-9792-448d4226fa0f",
     "children": [
+        "ee48314b-2e52-4057-a49b-64e40aedcb79",
+        "721ff876-14d3-4de7-8f5c-8f95c03c6165",
+        "758b4b4d-0d45-46fe-a5d2-8b75c6e90141",
+        "92398d54-bd79-4459-93a9-fa1f30d95003",
         "039abd5e-ab6b-4514-8044-411bb9a493fe",
+        "0e500d4c-30d5-472a-a034-6a033ae44f65",
+        "dcfbac24-ef98-4977-a0f4-8e7840709991",
+        "bbc39ddc-6de4-4d1c-9d51-894b69d12fcb",
+        "92617582-0807-43c7-842f-a473ed0150ce",
+        "91392d20-7e69-4ad0-aa36-a1406bee140c",
+        "992e3abf-c1b9-451d-8b2a-33b8ce761150",
+        "959ff2fd-edaa-4ffe-82bf-7a2467351fbc",
         "e45ee317-764e-41f3-9de0-be4f4c7290e7",
-        "1ec104fa-97c7-4c18-9fbe-f8b277ac89e8"
+        "cacb10d5-1f13-4928-aaec-3adadb400920",
+        "637130a3-8e2a-4395-9574-3619f4b78723",
+        "2927a427-2e55-43f8-a5c6-7bab8f8f8dc1",
+        "b85cc9aa-007e-42d8-ba9c-99ee6c7561d5",
+        "e0368cca-2373-485c-9d9a-7895c260fd19",
+        "26f948c0-c2d0-44a8-a270-8e5474579dd0",
+        "60a32b4f-8013-406f-b654-e14c931634a0"
     ],
     "filterType": "GMSprite",
-    "folderName": "Survival",
+    "folderName": "Items",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
