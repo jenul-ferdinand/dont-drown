@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "13d13861-6cad-4362-907e-ed5454222800",
-            "Value": {
-                "id": "5e4e17c2-c6c3-4d10-a21e-5dc9d7818a95",
-                "resourcePath": "objects\\obj_stone_pick_button\\obj_stone_pick_button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "15363a9a-55df-42a2-9403-3b16f9b78812",
             "Value": {
                 "id": "aa042fd2-3082-4b2b-b071-f74f10f85cc3",
@@ -383,14 +375,6 @@
             }
         },
         {
-            "Key": "41fa1aef-21c8-4e7b-8231-6aeaa59341c6",
-            "Value": {
-                "id": "f595635c-fcb9-4fda-8510-5da3c453624a",
-                "resourcePath": "objects\\obj_stone_axe_button\\obj_stone_axe_button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "44ba79d4-0f99-4c28-b994-963353896f11",
             "Value": {
                 "id": "aeff7b5a-3bfa-4abf-88ed-f051c8dfdc49",
@@ -412,14 +396,6 @@
                 "id": "102a8a5e-2361-470b-a4fc-99e48c19439a",
                 "resourcePath": "sprites\\spr_glow\\spr_glow.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "478406eb-5453-4d45-9980-d9a3f0b3f6cd",
-            "Value": {
-                "id": "9d9aa138-f6d9-4d7f-bb3a-af5ba00a343c",
-                "resourcePath": "views\\478406eb-5453-4d45-9980-d9a3f0b3f6cd.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -556,14 +532,6 @@
                 "id": "406c9e47-026c-4c64-ac07-c3bf38ca0262",
                 "resourcePath": "shaders\\shWave\\shWave.yy",
                 "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "6abecd4d-dd87-472d-9f9d-15d6f7337562",
-            "Value": {
-                "id": "c55bf62c-c1e1-443e-add7-9103076cde03",
-                "resourcePath": "objects\\obj_exit_button\\obj_exit_button.yy",
-                "resourceType": "GMObject"
             }
         },
         {
