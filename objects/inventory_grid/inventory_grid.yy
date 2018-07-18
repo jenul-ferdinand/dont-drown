@@ -2,7 +2,7 @@
     "id": "d4a52693-ded8-479c-a494-2d4d0157ff81",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "inventory",
+    "name": "inventory_grid",
     "eventList": [
         {
             "id": "ec0d0195-9a12-4599-8a06-8963b00e21e9",

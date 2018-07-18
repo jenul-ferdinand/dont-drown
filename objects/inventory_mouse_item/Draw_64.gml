@@ -11,11 +11,4 @@ if (item != -1)
 	
 	// Draw The Item On The Mouse
 	draw_sprite(spr_items, item, x, y);
-	
-	for (var i = 0; i < global.max_items; i++)
-	{
-		draw_set_font(fnt_inventory_digits);
-		draw_text(x + 4, y, string(global.item_amount[i]));
-		draw_set_font(-1);
-	}
 }

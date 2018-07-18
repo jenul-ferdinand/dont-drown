@@ -26,6 +26,7 @@ if (hit == true)
 					}
 			}
 	
+		scr_pickup(4);
 		show_debug_message("TreeHP: " + string(hp));
 		audio_play_sound(snd_wood_hit_1, 98, 0);
 	}

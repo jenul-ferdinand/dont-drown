@@ -631,14 +631,6 @@
             }
         },
         {
-            "Key": "76fbb04e-5dca-4ca1-b6d3-3b3b27e970e5",
-            "Value": {
-                "id": "62d6afa2-cbd8-421e-974a-46e14a513302",
-                "resourcePath": "extensions\\NPC_A_I\\NPC_A_I.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "773023fd-f86d-4125-b7f9-6722e0491b3c",
             "Value": {
                 "id": "a8cb0855-c8d1-4495-980a-4c8fa64f19d7",
@@ -831,6 +823,14 @@
             }
         },
         {
+            "Key": "92398d54-bd79-4459-93a9-fa1f30d95003",
+            "Value": {
+                "id": "420eb1e1-7b0d-4dce-b09b-61f4080f93ca",
+                "resourcePath": "sprites\\spr_imported\\spr_imported.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9339734e-3f7a-4069-aee0-ed85e3d5622e",
             "Value": {
                 "id": "3a1cd891-b3b3-44bd-901b-4800bed984ae",
@@ -1020,14 +1020,6 @@
                 "id": "fd962a89-0c92-4410-83d5-5ffd6f13b869",
                 "resourcePath": "sprites\\spr_grounds\\spr_grounds.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "aa1aeaec-fe55-42d8-b5cb-371ad3ea0ec4",
-            "Value": {
-                "id": "52a6f4f8-b954-4934-ae0a-80404003d28d",
-                "resourcePath": "extensions\\Essential_Scripts\\Essential_Scripts.yy",
-                "resourceType": "GMExtension"
             }
         },
         {
@@ -1250,7 +1242,7 @@
             "Key": "d4a52693-ded8-479c-a494-2d4d0157ff81",
             "Value": {
                 "id": "4b450084-b8ad-4836-acf7-3315e9f145be",
-                "resourcePath": "objects\\inventory\\inventory.yy",
+                "resourcePath": "objects\\inventory_grid\\inventory_grid.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1351,14 +1343,6 @@
             }
         },
         {
-            "Key": "e649a08b-af72-47c6-ab1f-7c5fc0bc77c9",
-            "Value": {
-                "id": "39ea1c10-e3cb-4c1e-a004-0c6c08ac2814",
-                "resourcePath": "extensions\\Ambient_AI\\Ambient_AI.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "e6687af0-9a9e-43c7-92e0-cf46876534e4",
             "Value": {
                 "id": "54222af5-350c-46d4-8bfe-524864f4db44",
@@ -1372,6 +1356,14 @@
                 "id": "cf9d37b0-613c-49ea-b9b9-cf98e47c18a0",
                 "resourcePath": "fonts\\fnt_timer\\fnt_timer.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e7b8299b-1823-4e4a-88fe-5dfc9e728bcb",
+            "Value": {
+                "id": "691c1c89-1f0f-4cbd-9d2c-d9ffd25ab8a0",
+                "resourcePath": "objects\\inventory_line\\inventory_line.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -37,22 +37,29 @@ if (!global.show_inv)
 			{
 				switch (item)
 				{
-					// Stone Axe
+					// Hands
 					case 0:
+					{
+						obj_player.weapon = obj_hands;	
+					}
+					break;
+					
+					// Stone Axe
+					case 1:
 					{
 						obj_player.weapon = obj_stone_axe;	
 					}
 					break;
 					
 					// Stone Pick
-					case 1:
+					case 2:
 					{
-						obj_player.weapon = obj_stone_pick;	
+						obj_player.weapon = obj_stone_pick;
 					}
 					break;
 				}
 			}
-		}	
+		}
 	}
 }
 
