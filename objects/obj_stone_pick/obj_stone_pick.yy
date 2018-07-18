@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_stone_pick",
     "eventList": [
-        
+        {
+            "id": "e28626dd-5eb7-41a5-ae7c-e601a52d5628",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8dafe0c8-ed24-48ba-a9d8-c1b36155970e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

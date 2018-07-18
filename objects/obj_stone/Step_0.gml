@@ -1,34 +1,37 @@
 if (hp <= 0)
-	{
+{
 	instance_destroy();
-	}
+}
 	
 if (hit == true)
-	{
+{
 	hp -= global.stone_damage;
 	
 	//Hands
 	if (instance_exists(obj_hands))
-		{
+	{
 		if (obj_player.weapon == obj_hands)
-			{
+		{
 			global.stone_count++;
-			}
+			scr_pickup(4);
 		}
+	}
 	
 	//Starter Pick
 	if (instance_exists(obj_stone_pick))
-		{
+	{
 		if (obj_player.weapon == obj_stone_pick)
-			{
-			global.stone_count += 10;
-			}
+		{
+			global.stone_count += 2;
+			scr_pickup(4);
+			scr_pickup(4);
 		}
+	}
 		
 	show_debug_message("StoneHP: " + string(hp));
 	audio_play_sound(snd_stone_hit_1, 97, 0);
 	wobbling = true;
-	}
+}
 
 #region Wobble
 // has wobbling been initiated?

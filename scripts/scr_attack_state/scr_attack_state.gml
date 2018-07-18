@@ -4,25 +4,25 @@
 image_speed = 2;
 
 if (image_index >= 5 and image_index < 5.4)
+{
+	if (!instance_exists(weapon))
 	{
-		if (!instance_exists(weapon))
+		with (instance_create_layer(x,y, "Combat", weapon))
+		{
+			dir = obj_player.face*90;
+			image_angle = (obj_player.face*90)+45;
+			//As soon as the weapon is created change the mask index of obj_pine_tree
+			with (obj_tree)
 			{
-				with (instance_create_layer(x,y, "Combat", weapon))
-					{
-						dir = obj_player.face*90;
-						image_angle = (obj_player.face*90)+45;
-						//As soon as the weapon is created change the mask index of obj_pine_tree
-						with (obj_tree)
-							{
-								if (instance_exists(obj_player.weapon))
-									{
-										mask_index = spr_pine_tree_collision;	
-									}
-							}
-					}
-					
+				if (instance_exists(obj_player.weapon))
+				{
+					mask_index = spr_pine_tree_collision;	
+				}
 			}
+		}
+					
 	}
+}
 
 
 // Switch To The Attack Animation Depending On Which Direction We Are Facing

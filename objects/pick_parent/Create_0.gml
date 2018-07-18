@@ -1,6 +1,6 @@
 //
-global.stone_damage = 10;
-global.chicken_damage = 25;
+global.stone_damage = 0;
+global.chicken_damage = 0;
 // Inherit the parent event
 event_inherited();
 
