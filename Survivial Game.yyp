@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0792c8e5-0e18-43ef-bc5c-59254fc360c3",
+            "Value": {
+                "id": "ed3e5d80-c44b-4e26-869d-7ba86ec9e811",
+                "resourcePath": "views\\0792c8e5-0e18-43ef-bc5c-59254fc360c3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "07bec5dd-ee58-4823-ab33-57ce8b9da9ff",
             "Value": {
                 "id": "c9946c36-9936-4f50-a181-a6ebbcf78bee",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "3a7d9b2d-f3e0-4c1a-b353-7e12c4c833b9",
+            "Value": {
+                "id": "60b27fb6-11c3-4d96-8b35-7030981deb75",
+                "resourcePath": "scripts\\scr_reach_tween\\scr_reach_tween.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3a8bb4fb-284d-4287-abd5-e4e0e2db83d5",
             "Value": {
                 "id": "d1938a2c-1353-4d6b-92f6-24cb10e28fed",
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "53e82e23-b38a-4833-9153-7694b2386af3",
+            "Value": {
+                "id": "5dff996b-e156-4c5c-bb77-17a7a1d7cf71",
+                "resourcePath": "fonts\\fnt_scrolling_ui\\fnt_scrolling_ui.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "55a46f1c-b017-4c96-8360-d0b2c3b8d5dd",
             "Value": {
                 "id": "0cb20614-f5fd-4dff-ac00-0779708933fd",
@@ -515,6 +539,14 @@
             "Value": {
                 "id": "8211dbaa-224d-4d52-bf90-7e9a53c7a020",
                 "resourcePath": "views\\5fa02c12-deca-4c4d-8f87-8035432983af.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "669979bd-a7f9-4707-9a4f-8bc421f0a19f",
+            "Value": {
+                "id": "5be79013-60d2-4962-9d85-b8fe6e3e7609",
+                "resourcePath": "views\\669979bd-a7f9-4707-9a4f-8bc421f0a19f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1103,6 +1135,14 @@
             }
         },
         {
+            "Key": "bd43b454-d324-4cc8-b5d7-cb2c30962150",
+            "Value": {
+                "id": "56abc022-b1c4-4640-a19b-19ed0083bce8",
+                "resourcePath": "objects\\obj_scrolling_ui\\obj_scrolling_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd4848e3-6f45-4e5b-951a-b7d299213c6f",
             "Value": {
                 "id": "62f700fc-7008-4d57-92dc-40d586307f56",
@@ -1487,6 +1527,14 @@
             }
         },
         {
+            "Key": "f9ab0a58-22aa-4504-af72-54df3f6dd978",
+            "Value": {
+                "id": "df2bd77c-35f2-4a5c-815a-b890b31be901",
+                "resourcePath": "sounds\\snd_blip_select_1\\snd_blip_select_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ff8b44e5-5ce8-4a86-a39d-945442737ad5",
             "Value": {
                 "id": "4804d866-db14-41f8-a2a9-92df56e16f42",
@@ -1542,7 +1590,8 @@
         "bf793383-877f-4b96-bb69-2e19ac72025d",
         "218d9b43-c67c-45cf-97df-a8f634bfcfee",
         "a2e8c854-d78d-4977-9384-7837732d111d",
-        "f1a07338-090e-4e8a-909a-5e2efae9f14b"
+        "f1a07338-090e-4e8a-909a-5e2efae9f14b",
+        "3a7d9b2d-f3e0-4c1a-b353-7e12c4c833b9"
     ],
     "tutorial": ""
 }
