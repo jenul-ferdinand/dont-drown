@@ -62,20 +62,27 @@ if (!global.show_inv)
 		}
 		
 		
-		if (keyboard_check(vk_shift) and mouse_check_button_pressed(mb_right))
+		if (mouse_check_button_pressed(mb_middle))
 		{
 			if (item != -1)
 			{
-				switch (item)
+				if (item == 0)
 				{
-					case 0:
-					{
-						scr_drop(slot);
-						instance_create_layer(
-					}
+					drop = 0;
+				}
+				
+				if (item == 1)
+				{
+					drop = 1;
+				}
+				
+				if (item == 2)
+				{
+					drop = 2;
 				}
 			}
 		}
+		
 		
 		
 	}
@@ -89,6 +96,7 @@ if (!global.show_inv)
 		draw_sprite(spr_items, item, x, y);
 	}
 }
+		
 
 
 

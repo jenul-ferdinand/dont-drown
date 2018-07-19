@@ -34,5 +34,4 @@ fullInv = 0;
 globalvar noitem;
 noitem = 0;
 
-// Add the hand to the inventory at the start of the game.. lol
-scr_pickup(0);
+
