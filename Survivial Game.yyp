@@ -1215,14 +1215,6 @@
             }
         },
         {
-            "Key": "f1994a8c-c31b-40ba-85b8-9019868fcfe1",
-            "Value": {
-                "id": "7954f070-506f-42dc-84ec-ea1cdda25bdd",
-                "resourcePath": "objects\\ui\\ui.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f29ff65c-8be4-4b35-b52c-cc20c61f1c0d",
             "Value": {
                 "id": "5ec0775e-f1ec-489c-9cea-dfd2bb6a31a4",
