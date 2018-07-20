@@ -1,5 +1,5 @@
 if (!show_gui) exit;
-if (inventory_drop_selector.show_gui) exit;
+if (crafting_ui.show_gui) exit;
 
 display_set_gui_size(view_wport[0], view_hport[0]);
 // Input
@@ -38,7 +38,7 @@ for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
 	);
 	
 	// Recipe
-	if (i == anim) {draw_text((drawx + vector_x) + 250, drawy + vector_y, cost[i]);}
+	if (i == anim) {draw_text((drawx + vector_x) + 250, drawy + vector_y, string(amount[i]));}
 	draw_set_font(-1);
 	draw_set_colour(c_white);
 	draw_set_alpha(1);

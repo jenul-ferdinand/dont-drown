@@ -85,7 +85,7 @@ if (image_index >= first_index and image_index < last_index)
 						creator = id;
 		
 						//Stone
-						if (obj_player.pick or obj_player.hands)
+						if (pick_parent or obj_hands)
 							{
 								with (instance_place(x, y, obj_stone))
 									{
@@ -102,7 +102,7 @@ if (image_index >= first_index and image_index < last_index)
 							}
 			
 						//Tree
-						if (obj_player.axe or obj_player.hands)
+						if (axe_parent or obj_hands)
 							{
 								with (instance_place(x, y, obj_tree))
 									{
