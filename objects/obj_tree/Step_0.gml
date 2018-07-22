@@ -6,6 +6,7 @@ if (hp <= 0)
 // If Hit
 if (hit == true)
 {
+	// Remove Hp
 	hp -= global.tree_damage;
 	
 	// Hands

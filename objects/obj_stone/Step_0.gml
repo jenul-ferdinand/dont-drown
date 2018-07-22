@@ -5,9 +5,10 @@ if (hp <= 0)
 	
 if (hit == true)
 {
+	// Remove Hp
 	hp -= global.stone_damage;
 	
-	//Hands
+	// Hands
 	if (instance_exists(obj_hands))
 	{
 		if (obj_player.weapon == obj_hands)
@@ -17,7 +18,7 @@ if (hit == true)
 		}
 	}
 	
-	//Starter Pick
+	// Stone Pick
 	if (instance_exists(obj_stone_pick))
 	{
 		if (obj_player.weapon == obj_stone_pick)

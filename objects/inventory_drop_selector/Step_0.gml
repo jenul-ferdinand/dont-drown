@@ -6,11 +6,11 @@ if (!show_gui) exit;
 if (mouse_wheel_down() or mouse_wheel_up()) {audio_play_sound(snd_blip_select_1, 99, 0);}
 
 // Selecting
-if (mouse_wheel_down()) {selected++}
-if (mouse_wheel_up()) {selected--}
+if (mouse_wheel_down()) {selected++; show_debug_message(selected);}
+if (mouse_wheel_up()) {selected--; show_debug_message(selected);}
 // Cap the lowest and highest
-if (selected < 0) {selected = 0}
-if (selected > selection_max) {selected = selection_max}
+if (selected <= 0) {selected = 0}
+if (selected >= selection_max) {selected = selection_max}
 
 if (keyboard_check_pressed(ord("E")))
 {

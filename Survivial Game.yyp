@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "41d1e26f-01d1-4e03-bb36-01db4b7d0cce",
+            "Value": {
+                "id": "1c4a18c6-04bb-40b9-8177-36b4aea9c8e0",
+                "resourcePath": "views\\41d1e26f-01d1-4e03-bb36-01db4b7d0cce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "44ba79d4-0f99-4c28-b994-963353896f11",
             "Value": {
                 "id": "aeff7b5a-3bfa-4abf-88ed-f051c8dfdc49",
@@ -604,6 +612,14 @@
                 "id": "2171066c-6e59-43a5-a3c1-cb60ce64014c",
                 "resourcePath": "tilesets\\tile_water\\tile_water.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5d68646f-5a39-45ee-8b6b-4f9c563910fb",
+            "Value": {
+                "id": "9fc62600-65eb-4bb0-8345-68a8d35f3dac",
+                "resourcePath": "views\\5d68646f-5a39-45ee-8b6b-4f9c563910fb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1383,6 +1399,14 @@
             }
         },
         {
+            "Key": "c5766c4d-cba7-426a-ae8a-0fffa547037a",
+            "Value": {
+                "id": "05c15c01-480e-4d7a-8f01-b6135d27ffd0",
+                "resourcePath": "views\\c5766c4d-cba7-426a-ae8a-0fffa547037a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6217bb0-6f1e-4e30-b7b6-c8192422449b",
             "Value": {
                 "id": "5eff23c3-06f9-445e-950f-cc9fbbc67aa1",
@@ -1615,6 +1639,14 @@
             }
         },
         {
+            "Key": "e5374df6-b93d-436f-9eb8-d38afa5cc958",
+            "Value": {
+                "id": "1ff88372-2f2f-4a45-addb-3be4bb6567a2",
+                "resourcePath": "views\\e5374df6-b93d-436f-9eb8-d38afa5cc958.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e6687af0-9a9e-43c7-92e0-cf46876534e4",
             "Value": {
                 "id": "54222af5-350c-46d4-8bfe-524864f4db44",
@@ -1690,7 +1722,7 @@
             "Key": "f29ff65c-8be4-4b35-b52c-cc20c61f1c0d",
             "Value": {
                 "id": "5ec0775e-f1ec-489c-9cea-dfd2bb6a31a4",
-                "resourcePath": "sprites\\spr_bluey_collision\\spr_bluey_collision.yy",
+                "resourcePath": "sprites\\spr_player_collision\\spr_player_collision.yy",
                 "resourceType": "GMSprite"
             }
         },

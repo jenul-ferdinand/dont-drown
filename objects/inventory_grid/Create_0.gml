@@ -34,4 +34,7 @@ fullInv = 0;
 globalvar noitem;
 noitem = 0;
 
+// Add The Hands To The Inventory
+scr_pickup(0);
+
 

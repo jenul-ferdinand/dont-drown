@@ -11,7 +11,7 @@
         "44ba79d4-0f99-4c28-b994-963353896f11"
     ],
     "filterType": "GMSprite",
-    "folderName": "Bluey",
+    "folderName": "Player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

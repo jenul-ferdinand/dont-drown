@@ -2,7 +2,7 @@
     "id": "f29ff65c-8be4-4b35-b52c-cc20c61f1c0d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bluey_collision",
+    "name": "spr_player_collision",
     "For3D": false,
     "HTile": false,
     "VTile": false,
