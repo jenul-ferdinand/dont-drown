@@ -61,6 +61,7 @@ if (keyboard_check_pressed(ord("E")))
 		{
 			// Drop the wood
 			scr_drop(3);
+			global.wood_count--;
 			show_debug_message("Dropped Wood");
 		} 
 		break;
@@ -70,6 +71,7 @@ if (keyboard_check_pressed(ord("E")))
 		{
 			// Drop the stone
 			scr_drop(4);
+			global.stone_count--;
 			show_debug_message("Dropped Stone");
 		} 
 		break;

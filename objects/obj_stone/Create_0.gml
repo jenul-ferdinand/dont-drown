@@ -1,5 +1,9 @@
+// Health Of The Stone
 hp = 100;
+// Is The Stone Hit
 hit = false;
+// What Is It Hit From
+hitfrom = -1;
 
 #region Wobble
 // setup variables used for calculation and keeping track of wobble

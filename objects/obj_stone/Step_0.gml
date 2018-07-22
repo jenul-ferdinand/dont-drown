@@ -1,5 +1,45 @@
+// If HP <= Zero
 if (hp <= 0)
 {
+	#region Hitfrom Switch
+	
+	switch (hitfrom)
+	{
+		
+		case "Hands":
+		{
+			// Give us 5 Stone
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			
+			global.stone_count += 5;
+		}
+		break;
+		
+		
+		case "Stone Pick":
+		{
+			// Give us 8 Stone
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			scr_pickup(4);
+			
+			global.stone_count += 8;
+		}
+		break;
+	}
+	
+	#endregion
+	
+	// Destroy The Stone...
 	instance_destroy();
 }
 	
@@ -8,13 +48,13 @@ if (hit == true)
 	// Remove Hp
 	hp -= global.stone_damage;
 	
+	#region Item Types
 	// Hands
 	if (instance_exists(obj_hands))
 	{
 		if (obj_player.weapon == obj_hands)
 		{
-			global.stone_count++;
-			scr_pickup(4);
+			hitfrom = "Hands";
 		}
 	}
 	
@@ -23,12 +63,12 @@ if (hit == true)
 	{
 		if (obj_player.weapon == obj_stone_pick)
 		{
-			global.stone_count += 2;
-			scr_pickup(4);
-			scr_pickup(4);
+			hitfrom = "Stone Pick";
 		}
 	}
-		
+	
+	#endregion	
+	
 	show_debug_message("StoneHP: " + string(hp));
 	audio_play_sound(snd_stone_hit_1, 97, 0);
 	wobbling = true;

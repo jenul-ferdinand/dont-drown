@@ -22,7 +22,7 @@ if (keyboard_check_pressed(ord("E")))
 		// Stone Axe
 		case 0:
 		{
-			if (wood == 4 and stone == 3)
+			if (global.wood_count >= 4 and global.stone_count >= 3)
 			{
 				obj_player.weapon = obj_stone_axe;
 				scr_pickup(1);
@@ -33,7 +33,7 @@ if (keyboard_check_pressed(ord("E")))
 		// Stone Pick
 		case 1:
 		{
-			if (wood == 3 and stone == 4)
+			if (global.wood_count >= 3 and global.stone_count >= 4)
 			{
 				obj_player.weapon = obj_stone_pick;
 				scr_pickup(2);

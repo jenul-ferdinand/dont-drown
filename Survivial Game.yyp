@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "1b03b9f1-20c1-4db5-afa5-84e125a60093",
+            "Value": {
+                "id": "6b86588b-90ff-4ba2-bf27-1d3b5fc29ea9",
+                "resourcePath": "views\\1b03b9f1-20c1-4db5-afa5-84e125a60093.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1c7fa21d-3e33-4550-9ea2-8ffd2f3603d2",
             "Value": {
                 "id": "5484d516-c478-472d-b9ee-367f6336ac25",
@@ -967,6 +975,14 @@
             }
         },
         {
+            "Key": "81bed433-c9cb-4c79-8c52-6445a1c93a34",
+            "Value": {
+                "id": "d6f6368d-09ab-4bb7-af42-e383e779005f",
+                "resourcePath": "objects\\obj_growler\\obj_growler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82ba85d8-70a4-457c-a71a-9a7a6a151073",
             "Value": {
                 "id": "1ad8c59d-5522-44c2-89b2-533e220b3277",
@@ -1303,6 +1319,14 @@
             }
         },
         {
+            "Key": "ab4fb770-12d4-450c-adae-78ff553db44a",
+            "Value": {
+                "id": "3f63d42b-a93a-40d3-ae07-d78ab5ff035e",
+                "resourcePath": "views\\ab4fb770-12d4-450c-adae-78ff553db44a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ac3b1e72-01ba-4804-9141-52a084996153",
             "Value": {
                 "id": "72c09810-8910-46a4-8736-f484c9e12aee",
@@ -1492,14 +1516,6 @@
                 "id": "5eff23c3-06f9-445e-950f-cc9fbbc67aa1",
                 "resourcePath": "fonts\\fnt_inventory_digits\\fnt_inventory_digits.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "c6a695ed-c3b7-47de-b040-930a5e690901",
-            "Value": {
-                "id": "afd10c94-90c1-478b-a229-25969504186d",
-                "resourcePath": "objects\\crafting\\crafting.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1863,6 +1879,14 @@
             }
         },
         {
+            "Key": "f4f8fa3b-a90b-4982-8f12-10503d4e5349",
+            "Value": {
+                "id": "f6644808-6895-4e53-a868-1a4b9aa1fe39",
+                "resourcePath": "views\\f4f8fa3b-a90b-4982-8f12-10503d4e5349.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f53cdf86-2210-4fe1-a362-690578bd5919",
             "Value": {
                 "id": "828ae3b4-0b05-44bc-b553-3205593f9870",
@@ -1876,6 +1900,14 @@
                 "id": "f8db612b-d4dd-484e-98e8-dea80ad25d9d",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "f871b18d-058e-4346-8de5-6a8758aaca98",
+            "Value": {
+                "id": "8004bbf2-b2f0-40ea-b535-2cddb48ad0d6",
+                "resourcePath": "views\\f871b18d-058e-4346-8de5-6a8758aaca98.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

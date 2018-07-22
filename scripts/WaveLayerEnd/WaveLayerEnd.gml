@@ -12,7 +12,7 @@ if (event_type == ev_draw)
 		draw_clear_alpha(c_white,0);
 
 		//Draw our outer coastline to it.
-		var ws = 6;//size of the outer coast line
+		var ws = 8;//size of the outer coast line
 		shader_set(shColourLightBlue);
 		draw_surface(global.wavesurf,ws,ws);
 		draw_surface(global.wavesurf,-ws,-ws);
@@ -21,7 +21,7 @@ if (event_type == ev_draw)
 		shader_reset();
 		
 		//Then draw our inner coastline on top
-		var ws = 2;//size of the inner coast line
+		var ws = 3.5;//size of the inner coast line
 		shader_set(shColourWhite);
 		draw_surface(global.wavesurf,ws,ws);
 		draw_surface(global.wavesurf,-ws,-ws);
