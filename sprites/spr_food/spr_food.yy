@@ -2,7 +2,7 @@
     "id": "7d1c4076-aa00-4996-8eec-33caff5c81d0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_blueberry",
+    "name": "spr_food",
     "For3D": false,
     "HTile": false,
     "VTile": false,
