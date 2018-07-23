@@ -182,12 +182,9 @@ if (vspd != 0)
 	
 #endregion
 
-
-
-
 // Let The Player Move If It Is Not Colliding
-x += hspd; 
-y += vspd;
+phy_position_x += hspd; 
+phy_position_y += vspd;
 
 #endregion
 

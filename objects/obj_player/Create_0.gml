@@ -1,3 +1,5 @@
+event_inherited();
+
 // Movement
 hspd = 0;
 vspd = 0;
@@ -38,6 +40,7 @@ global.wood_count = 0;
 
 // Home Made Colours
 #macro c_brown make_colour_rgb(102, 51, 0)
+
 
 
 
