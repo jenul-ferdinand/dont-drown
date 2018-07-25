@@ -3,7 +3,7 @@ event_inherited();
 image_speed = 0.1;
 
 // Movement
-movespeed = 3;
+movespeed = 0.5;
 
 // State
 state = scr_enemy_idle_state;
