@@ -1,6 +1,6 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
     "option_gameguid": "ba0802f4-4df2-45a6-90b4-47b3dc932811",
-    "option_lastchanged": "15 July 2018 5:52:30",
+    "option_lastchanged": "02 August 2018 10:27:42",
     "option_game_speed": 60,
     "option_sci_usesci": true
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{

@@ -1,1 +1,2 @@
-InitializeWaveLayer("Island");
+// Wave Shader Script
+//InitializeWaveLayer("Island");

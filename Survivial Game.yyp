@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "461e5a51-5b24-456c-b73c-0362c1370983",
+            "Value": {
+                "id": "d45355fd-0870-477a-baa7-4ea27cd0b01f",
+                "resourcePath": "views\\461e5a51-5b24-456c-b73c-0362c1370983.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49a36ff5-7422-4a1e-8568-0615bab36749",
             "Value": {
                 "id": "501237e8-4eee-4f0a-94c4-28b9e068f269",
@@ -2052,6 +2060,14 @@
                 "id": "aa1282df-075f-4359-8958-1f1f12a9aa94",
                 "resourcePath": "objects\\pk_chicken_wing_cooked_18\\pk_chicken_wing_cooked_18.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fed4dfbb-b103-4c4e-8983-774b5862251d",
+            "Value": {
+                "id": "17b21270-b75d-4e16-813f-e158838740cd",
+                "resourcePath": "sprites\\spr_player_glow\\spr_player_glow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

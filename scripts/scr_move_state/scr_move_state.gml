@@ -46,142 +46,6 @@ else
 		spd = normal_spd;
 	}
 
-// Check For Collisions
-
-#region obj_collision
-
-// HORIZONTAL 
-if (hspd != 0) 
-	{
-	if (place_meeting(x + hspd, y, obj_collision))
-		{
-			repeat (abs(hspd))
-				{
-					if (!place_meeting(x + sign(hspd), y, obj_collision))
-						{
-							x += sign(hspd);
-						}
-					else
-						{
-							break;
-						}
-				}
-		hspd = 0;
-		}
-	}
-	
-// VERTICAL
-if (vspd != 0)
-	{
-		if (place_meeting(x, y + vspd, obj_collision))
-			{
-				repeat (abs(vspd))
-					{
-						if (!place_meeting(x, y + sign(vspd), obj_collision))
-							{
-								y += sign(vspd);
-							}
-						else
-							{
-								break;
-							}
-					}
-				vspd = 0;
-			}
-	}
-	
-#endregion
-
-
-#region obj_tree
-
-// HORIZONTAL
-if (hspd != 0)
-	{
-		if (place_meeting(x + hspd, y, obj_tree))
-			{
-				repeat (abs(hspd))
-					{
-						if (!place_meeting(x + sign(hspd), y, obj_tree))
-							{
-								x += sign(hspd);
-							}
-						else
-							{
-								break;
-							}
-					}
-				hspd = 0;
-			}
-	}
-	
-// VERTICAL
-if (vspd != 0)
-	{
-		if (place_meeting(x, y + vspd, obj_tree))
-			{
-				repeat (abs(vspd))
-					{
-						if (!place_meeting(x, y + sign(vspd), obj_tree))
-							{
-								y += sign(vspd);
-							}
-						else
-							{
-								break;
-							}
-					}
-				vspd = 0;
-			}
-	}
-	
-#endregion
-
-
-#region obj_stone
-
-// HORIZONTAL
-if (hspd != 0)
-	{
-		if (place_meeting(x + hspd, y, obj_stone))
-			{
-				repeat (abs(hspd))
-					{
-						if (!place_meeting(x + sign(hspd), y, obj_stone))
-							{
-								x += sign(hspd);
-							}
-						else
-							{
-								break;
-							}
-					}
-				hspd = 0;
-			}
-	}
-	
-// VERTICAL
-if (vspd != 0)
-	{
-		if (place_meeting(x, y + vspd, obj_stone))
-			{
-				repeat (abs(vspd))
-					{
-						if (!place_meeting(x, y + sign(vspd), obj_stone))
-							{
-								y += sign(vspd);
-							}
-						else
-							{
-								break;
-							}
-					}
-				vspd = 0;
-			}
-	}
-	
-#endregion
-
 // Let The Player Move If It Is Not Colliding
 phy_position_x += hspd; 
 phy_position_y += vspd;
@@ -190,53 +54,61 @@ phy_position_y += vspd;
 
 #region obj_water_collision
 if (place_meeting(x, y, obj_ground_collision))
-	{
-		// Control The Sprite
-		image_speed = .75;
-		if (len == 0) image_index = 0;
+{
+	// Delete The Oxygen Bar
+	survival.show_oxygen_bar = false;
+	
+	// Control The Sprite
+	image_speed = .75;
+	if (len == 0) {image_index = 0};
 
-		switch (face)
-			{
-				case RIGHT:
-						sprite_index = spr_player_right;
-					break;
-		
-				case LEFT:
-						sprite_index = spr_player_left;
-					break;
-		
-				case DOWN:
-						sprite_index = spr_player_down;
-					break;
-		
-				case UP:
-						sprite_index = spr_player_up;
-					break;
-			}
-	}
-else
+	switch (face)
 	{
-		image_speed = .75;
-		if (len == 0) {image_index = 0;}
-		switch (face)
-			{
-				case RIGHT:
-						sprite_index = spr_player_swim_right;
-					break;
+		case RIGHT:
+				sprite_index = spr_player_right;
+			break;
 		
-				case LEFT:
-						sprite_index = spr_player_swim_left;
-					break;
+		case LEFT:
+				sprite_index = spr_player_left;
+			break;
 		
-				case DOWN:
-						sprite_index = spr_player_swim_down;
-					break;
+		case DOWN:
+				sprite_index = spr_player_down;
+			break;
 		
-				case UP:
-						sprite_index = spr_player_swim_up;
-					break;
-			}
+		case UP:
+				sprite_index = spr_player_up;
+			break;
 	}
+			
+		
+}
+else
+{
+	// Show The Oxygen Bar
+	survival.show_oxygen_bar = true;
+	
+	image_speed = .75;
+	if (len == 0) {image_index = 0;}
+	switch (face)
+	{
+		case RIGHT:
+				sprite_index = spr_player_swim_right;
+			break;
+		
+		case LEFT:
+				sprite_index = spr_player_swim_left;
+			break;
+		
+		case DOWN:
+				sprite_index = spr_player_swim_down;
+			break;
+		
+		case UP:
+				sprite_index = spr_player_swim_up;
+			break;
+	}
+}
 
 #endregion
 

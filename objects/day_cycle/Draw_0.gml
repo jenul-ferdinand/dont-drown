@@ -15,14 +15,14 @@ if (draw_daylight)
 		with (obj_player)
 			{
 				gpu_set_blendmode(bm_subtract);
-				draw_sprite(spr_glow, 0, x, y-6);
+				draw_sprite(spr_player_glow, 0, x, y-6);
 				gpu_set_blendmode(bm_normal);
 			}
 			
 		with (obj_chicken)
 			{
 				gpu_set_blendmode(bm_subtract);
-				draw_sprite(spr_glow, 0, x, y-4);
+				draw_sprite(spr_player_glow, 0, x, y-4);
 				gpu_set_blendmode(bm_normal);
 			}
 		
