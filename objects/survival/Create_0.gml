@@ -7,7 +7,7 @@ global.oxygen = 100;
 hunger_rate = room_speed*20;
 thirst_rate = room_speed*15;
 sanity_rate = room_speed*30;
-oxygen_rate = room_speed*60;
+oxygen_rate = room_speed*1;
 show_oxygen_bar = false;
 
 alarm[0] = hunger_rate; // Hunger

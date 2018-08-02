@@ -24,7 +24,7 @@ draw_healthbar(12, 560, 212, 590, global.sanity, c_black, c_purple, c_purple, -1
 draw_set_alpha(1);
 draw_text_outlined(14, 565, "Sanity", c_purple, c_black);
 
-if (show_oxygen_bar)
+if (show_oxygen_bar == true)
 {
 	// Oxygen
 	draw_set_alpha(a);

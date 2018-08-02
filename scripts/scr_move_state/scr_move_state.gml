@@ -52,8 +52,17 @@ phy_position_y += vspd;
 
 #endregion
 
-#region obj_water_collision
-if (place_meeting(x, y, obj_ground_collision))
+// Check For Ground Tile Collision
+if (tilemap_get_at_pixel(layer_tilemap_get_id("Island"), x, y)) 
+{
+	grounded = true;
+} 
+else
+{
+	grounded = false;	
+}
+
+if (grounded)
 {
 	// Delete The Oxygen Bar
 	survival.show_oxygen_bar = false;
@@ -110,6 +119,18 @@ else
 	}
 }
 
-#endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

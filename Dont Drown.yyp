@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        "default"
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -1127,14 +1127,6 @@
             }
         },
         {
-            "Key": "8f0e7dc6-a909-40ef-b6b7-fe080624c8d8",
-            "Value": {
-                "id": "b47e864a-25b4-4f88-a3c8-c2c29c7722d3",
-                "resourcePath": "rooms\\rm_island\\rm_island.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "91392d20-7e69-4ad0-aa36-a1406bee140c",
             "Value": {
                 "id": "01471734-5f99-48cd-8775-7bb21d2eb3b5",
@@ -1236,14 +1228,6 @@
                 "id": "741d4dc0-87d3-4b67-a126-6fa34456ba65",
                 "resourcePath": "scripts\\draw_sprite_shadow\\draw_sprite_shadow.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9a44e9a5-e268-44da-b2a7-3b0cefe328f1",
-            "Value": {
-                "id": "3daad085-20fc-4dc6-801b-31ae0bc8e061",
-                "resourcePath": "rooms\\rm_island_bk\\rm_island_bk.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1420,14 +1404,6 @@
                 "id": "72c09810-8910-46a4-8736-f484c9e12aee",
                 "resourcePath": "views\\ac3b1e72-01ba-4804-9141-52a084996153.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ac795c06-3096-48bf-b215-8abdf686ed63",
-            "Value": {
-                "id": "aa4a7ad3-77e4-450a-9c50-276d1fcf53fe",
-                "resourcePath": "scripts\\scr_check_for_player\\scr_check_for_player.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -2119,7 +2095,6 @@
         "7f1a7753-507c-4d01-9bf7-232d671c74d8",
         "16d5a1d7-385a-40a8-b006-0d505fa42e8a",
         "9593b302-79bf-4fce-87c3-b2d6a0c8c9f1",
-        "ac795c06-3096-48bf-b215-8abdf686ed63",
         "de95b5e1-a1a8-4df1-b174-4f56011951c6",
         "a61b9975-ef94-46e3-b5e3-550d9411c5d4",
         "aa84cd8f-09fd-47de-84e0-566220a4049b",
