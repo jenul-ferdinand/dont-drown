@@ -12,6 +12,10 @@ if (mouse_wheel_up()) {selected--; show_debug_message(selected);}
 if (selected <= 0) {selected = 0}
 if (selected >= selection_max) {selected = selection_max}
 
+// Amounts Updated
+amount[2] = global.wood_count;
+amount[3] = global.stone_count;
+
 if (keyboard_check_pressed(ord("E")))
 {
 	switch (selected)

@@ -1,3 +1,33 @@
+// If Hit
+if (hit == true)
+{
+	// Remove Hp
+	hp -= global.tree_damage;
+	
+	#region Item Types
+	// Hands
+	if (instance_exists(obj_hands))
+	{
+		if (obj_player.weapon == obj_hands) 
+		{
+			hitfrom = "Hands";
+		}
+	}
+		
+	// Stone Axe
+	if (instance_exists(obj_stone_axe))
+	{
+		if (obj_player.weapon == obj_stone_axe) 
+		{
+			hitfrom = "Stone Axe";
+		}
+	}
+	#endregion 
+	
+	show_debug_message("TreeHP: " + string(hp));
+	audio_play_sound(snd_wood_hit_1, 98, 0);
+}
+
 // If HP Is <= Zero
 if (hp <= 0)
 {
@@ -40,37 +70,6 @@ if (hp <= 0)
 	
 	
 }
-
-// If Hit
-if (hit == true)
-{
-	// Remove Hp
-	hp -= global.tree_damage;
-	
-	#region Item Types
-	// Hands
-	if (instance_exists(obj_hands))
-	{
-		if (obj_player.weapon == obj_hands) 
-		{
-			hitfrom = "Hands";
-		}
-	}
-		
-	// Stone Axe
-	if (instance_exists(obj_stone_axe))
-	{
-		if (obj_player.weapon == obj_stone_axe) 
-		{
-			hitfrom = "Stone Axe";
-		}
-	}
-	#endregion 
-	
-	show_debug_message("TreeHP: " + string(hp));
-	audio_play_sound(snd_wood_hit_1, 98, 0);
-}
-
 
 // Become transparent if the player is behind you
 if (collision_circle(x, y-68, 32, obj_player, true, true))

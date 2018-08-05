@@ -34,20 +34,20 @@ if (!global.show_inv)
 		if (rclick)
 		{
 			if (item != -1)
-			{
+			{	
 				switch (item)
 				{
 					// Hands
 					case 0:
 					{
-						obj_player.weapon = obj_hands;	
+						obj_player.weapon = obj_hands;
 					}
 					break;
 					
 					// Stone Axe
 					case 1:
 					{
-						obj_player.weapon = obj_stone_axe;	
+						obj_player.weapon = obj_stone_axe;
 					}
 					break;
 					
@@ -60,42 +60,34 @@ if (!global.show_inv)
 				}
 			}
 		}
-		
-		
-		if (mouse_check_button_pressed(mb_middle))
-		{
-			if (item != -1)
-			{
-				if (item == 0)
-				{
-					drop = 0;
-				}
-				
-				if (item == 1)
-				{
-					drop = 1;
-				}
-				
-				if (item == 2)
-				{
-					drop = 2;
-				}
-			}
-		}
-		
-		
-		
 	}
-}
-
-// Draw The Item Sprite
-if (!global.show_inv)
-{
+	
+	// Draw The Item Sprite
 	if (item != -1)
 	{
 		draw_sprite(spr_items, item, x, y);
 	}
 }
+
+// Draw The Item Selected In The Game
+if (obj_player.weapon == obj_hands)
+{
+	draw_sprite(spr_items, 0, 600, 330);
+}
+else if (obj_player.weapon == obj_stone_axe)
+{
+	draw_sprite(spr_items, 1, 600, 330);
+}
+else if (obj_player.weapon == obj_stone_pick)
+{
+	draw_sprite(spr_items, 2, 600, 330);
+}
+
+
+
+
+
+
 		
 
 

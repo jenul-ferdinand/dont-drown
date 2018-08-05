@@ -18,6 +18,10 @@ var vector_move_xy = -32;
 var drawx = 10;
 var drawy = 300;
 
+// Ui Name
+draw_set_font(fnt_scrolling_ui);
+draw_text(10, 10, "Drop Items");
+draw_set_font(-1);
 	
 for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
 {
@@ -43,6 +47,8 @@ for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
 	draw_set_colour(c_white);
 	draw_set_alpha(1);
 }
+
+
 
 
 	

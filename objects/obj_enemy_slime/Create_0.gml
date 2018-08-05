@@ -15,3 +15,16 @@ sight = 64;
 // Target
 targetX = 0;
 targetY = 0;
+
+// Combat
+hp = 100;
+
+/* NOTE !!!!!
+	remember to change it so that wood and stone doesnt go into the inventory,
+	it just comes up as the amount you have at the bottom of the screen,
+	if you have none it is invisible
+	
+	you could also make it so that the amount of resources shows only when you
+	are inside the inventory, insead of just having it up the whole time
+	which makes the screen look really clustered
+*/

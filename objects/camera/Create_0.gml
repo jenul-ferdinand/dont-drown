@@ -2,6 +2,7 @@
 enum cam_mode
 	{
 		follow_object,
+		follow_object_smooth,
 		follow_mouse_peek,
 		move_to_follow_object,
 	}

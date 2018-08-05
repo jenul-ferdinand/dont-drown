@@ -33,7 +33,6 @@ sleepy_rate = 1;
 must_sleep = 200;
 
 //Combat
-hit = false;
 hp = 100;
 
 //Laying Eggs

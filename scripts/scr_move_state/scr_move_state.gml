@@ -2,16 +2,18 @@
 scr_get_input();
 
 // SWITCH TO ATTACK STATE IF PRESSED ATTACK KEY
-if (weapon != 0)
+if (grounded)
+{
+	if (weapon != 0)
 	{
 		if (attack_key)
-			{
-				image_index = 0;
-				state = scr_attack_state;
-				audio_play_sound(snd_sword_swing_1, 99, 0);
-			}
+		{
+			image_index = 0;
+			state = scr_attack_state;
+			audio_play_sound(snd_sword_swing_1, 99, 0);
+		}
 	}
-
+}
 #region MOVEMENT AND COLLISIONS
 
 // Get The Axis
@@ -23,14 +25,14 @@ dir = point_direction(0, 0, xaxis, yaxis);
 
 //	Get The Length
 if (xaxis == 0 and yaxis == 0)
-	{
-		len = 0
-	}
+{
+	len = 0
+}
 else
-	{
-		len = spd;
-		scr_get_face();
-	}
+{
+	len = spd;
+	scr_get_face();
+}
 
 // Get The Hspd And Vspd
 hspd = lengthdir_x(len, dir);
@@ -38,16 +40,16 @@ vspd = lengthdir_y(len, dir);
 
 // Alter Speed ---------
 if (walk_key or run_key)
-	{
-		spd = abs((walk_key * walk_spd) - (run_key * run_spd));
-	}
+{
+	spd = abs((walk_key * walk_spd) - (run_key * run_spd));
+}
 else
-	{
-		spd = normal_spd;
-	}
+{
+	spd = normal_spd;
+}
 
 // Let The Player Move If It Is Not Colliding
-phy_position_x += hspd; 
+phy_position_x += hspd;
 phy_position_y += vspd;
 
 #endregion

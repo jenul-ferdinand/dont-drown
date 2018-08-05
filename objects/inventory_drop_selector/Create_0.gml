@@ -9,8 +9,8 @@ selection_max = 3;
 // Crafting Recipe
 amount[0] = 0;
 amount[1] = 0;
-amount[2] = 0;
-amount[3] = 0;
+amount[2] = global.wood_count;
+amount[3] = global.stone_count;
 
 // Animation
 anim = 0;

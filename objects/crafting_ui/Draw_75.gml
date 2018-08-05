@@ -18,6 +18,10 @@ var vector_move_xy = -32;
 var drawx = 10;
 var drawy = 300;
 
+// Ui Name
+draw_set_font(fnt_scrolling_ui);
+draw_text(10, 10, "Crafting");
+draw_set_font(-1);
 	
 for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
 {
