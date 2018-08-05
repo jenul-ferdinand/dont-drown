@@ -1,19 +1,31 @@
 ///scr_move_state();
 scr_get_input();
 
-// SWITCH TO ATTACK STATE IF PRESSED ATTACK KEY
+// On The Ground
 if (grounded)
 {
+	// Weapon Equipped
 	if (weapon != 0)
 	{
-		if (attack_key)
+		// Inventory Not Open
+		if (global.show_inv)
 		{
-			image_index = 0;
-			state = scr_attack_state;
-			audio_play_sound(snd_sword_swing_1, 99, 0);
+			// Attack Key Pressed
+			if (attack_key) && (cooldown <= 0)
+			{
+				cooldown += 100;
+				//Play The Audio
+				audio_play_sound(snd_sword_swing_1, 99, 0);
+				// Reset Image Index
+				image_index = 0;
+				// Switch States
+				state = scr_attack_state;
+			}
 		}
 	}
 }
+
+
 #region MOVEMENT AND COLLISIONS
 
 // Get The Axis
@@ -31,7 +43,7 @@ if (xaxis == 0 and yaxis == 0)
 else
 {
 	len = spd;
-	scr_get_face();
+	//scr_get_face();
 }
 
 // Get The Hspd And Vspd
@@ -64,35 +76,25 @@ else
 	grounded = false;	
 }
 
+// Mouse Look 4 Directions
+mouseFace = (point_direction(x, y, mouse_x, mouse_y)+45) div 90;
+// Set The Direction To Equal The Mouse Look
+dir = mouseFace;
+
 if (grounded)
 {
-	// Delete The Oxygen Bar
+	// Dont Show The Oxygen Bar
 	survival.show_oxygen_bar = false;
 	
-	// Control The Sprite
 	image_speed = .75;
-	if (len == 0) {image_index = 0};
-
-	switch (face)
+	if (len == 0) {image_index = 0;}
+	switch (mouseFace) 
 	{
-		case RIGHT:
-				sprite_index = spr_player_right;
-			break;
-		
-		case LEFT:
-				sprite_index = spr_player_left;
-			break;
-		
-		case DOWN:
-				sprite_index = spr_player_down;
-			break;
-		
-		case UP:
-				sprite_index = spr_player_up;
-			break;
+		case UP: sprite_index=spr_player_up; break;
+		case LEFT: sprite_index=spr_player_left; break;
+		case DOWN: sprite_index=spr_player_down; break;
+		case RIGHT: sprite_index=spr_player_right; break;
 	}
-			
-		
 }
 else
 {
@@ -101,23 +103,12 @@ else
 	
 	image_speed = .75;
 	if (len == 0) {image_index = 0;}
-	switch (face)
+	switch (mouseFace) 
 	{
-		case RIGHT:
-				sprite_index = spr_player_swim_right;
-			break;
-		
-		case LEFT:
-				sprite_index = spr_player_swim_left;
-			break;
-		
-		case DOWN:
-				sprite_index = spr_player_swim_down;
-			break;
-		
-		case UP:
-				sprite_index = spr_player_swim_up;
-			break;
+		case UP: sprite_index=spr_player_swim_up; break;
+		case LEFT: sprite_index=spr_player_swim_left; break;
+		case DOWN: sprite_index=spr_player_swim_down; break;
+		case RIGHT: sprite_index=spr_player_swim_right; break;
 	}
 }
 

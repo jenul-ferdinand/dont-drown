@@ -7,7 +7,7 @@
         "7970416d-22f2-4f2d-8965-d5a086e57499"
     ],
     "filterType": "GMObject",
-    "folderName": "Players",
+    "folderName": "People",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

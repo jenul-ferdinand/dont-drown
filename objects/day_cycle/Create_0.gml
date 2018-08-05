@@ -14,7 +14,7 @@ time_increment = 15;
 time_pause = false;
 
 // Lighting
-max_darkness = 0.85;
+max_darkness = 0.65;
 darkness = 0;
 light_colour = c_black;
 draw_daylight = false;

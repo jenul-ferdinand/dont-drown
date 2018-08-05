@@ -9,8 +9,8 @@ if (image_index >= 5 and image_index < 5.4)
 	{
 		with (instance_create_layer(x,y, "Combat", weapon))
 		{
-			dir = obj_player.face*90;
-			image_angle = (obj_player.face*90)+45;
+			dir = obj_player.mouseFace*90;
+			image_angle = (obj_player.mouseFace*90)+45;
 			//As soon as the weapon is created change the mask index of obj_pine_tree
 			with (obj_tree)
 			{
@@ -24,7 +24,7 @@ if (image_index >= 5 and image_index < 5.4)
 }
 
 
-// Switch To The Attack Animation Depending On Which Direction We Are Facing
+//Switch To The Attack Animation Depending On Which Direction We Are Facing
 switch (sprite_index)
 {
 	case spr_player_down:
@@ -44,6 +44,7 @@ switch (sprite_index)
 	break;
 }
 
+
 // Hitbox
 var first_index = 5;
 var last_index = 6;
@@ -53,90 +54,83 @@ if (image_index >= first_index and image_index < last_index)
 	var xx = 0;
 	var yy = 0;
 	
+	// Change Where The Hitbox Is Depending On Where The Player Is Facing
 	switch (sprite_index)
 	{
+		// Down
 		case spr_player_attack_down:
 			xx = x;
-			yy = y+16;
+			yy = y + 9;
 		break;
-				
+		
+		// Up
 		case spr_player_attack_up:
 			xx = x;
-			yy = y-16;
+			yy = y - 18;
 		break;
-			
+		
+		// Right
 		case spr_player_attack_right:
-			xx = x+16;
-			yy = y;
+			xx = x + 12;
+			yy = y - 7;
 		break;
-				
+		
+		// Left
 		case spr_player_attack_left:
-			xx = x-16;
-			yy = y;
+			xx = x - 12;
+			yy = y - 7;
 		break;
 	}
 	
 	if (obj_player.weapon != 0)
 	{
+		// Create The Damage
 		with (instance_create_layer(xx, yy, "Combat", obj_damage))
 		{
-			//Tell Us The Creator
-			creator = id;
-		
-			//Stone
+			#region Stone
 			if (pick_parent || obj_hands)
 			{
 				with (instance_place(x, y, obj_stone))
-				{					
-					if (!hit) 
-					{
-						hit = true; 
-					} 
-					else 
-					{ 
-						hit = false; 
-					}
+				{
+					// Damage And Item Type Script
+					wep_damage_stone_switch();
+					
+					// Debug
+					show_debug_message("StoneHP: " + string(hp));
+					
+					// Hit
+					if (!hit) {	hit = true; } 
+					else { hit = false; }
 				}
 			}
+			#endregion
 			
-			//Tree
+			#region Tree
 			if (axe_parent || obj_hands)
 			{
 				with (instance_place(x, y, obj_tree))
 				{
-					if (!hit) 
-					{ 
-						hit = true; 
-					}
-					else 
-					{ 
-						hit = false;
-					}
+					// Damage And Item Type Script
+					wep_damage_tree_switch();
+					
+					// Debug
+					show_debug_message("TreeHP: " + string(hp));
+					
+					// Hit
+					if (!hit) { hit = true; } 
+					else { hit = false; }
 				}
 			}
-							
+			#endregion
+			
 			#region Chicken
 			if (obj_player.weapon != 0)
 			{
 				with (instance_place(x, y, obj_chicken))
 				{
-					switch (obj_player.weapon)
-					{
-						case obj_hands:
-						{
-							hp -= 10;
-						} break;
-						
-						case obj_stone_pick:
-						{
-							hp -= 15;
-						} break;
-						
-						case obj_stone_axe:
-						{
-							hp -= 50;
-						} break;
-					}
+					// Weapon Damage Type
+					wep_damage_chicken_switch();
+					
 					show_debug_message("ChickenHP: " + string(hp));
 				}
 			}
@@ -148,26 +142,12 @@ if (image_index >= first_index and image_index < last_index)
 			{
 				with (instance_place(x, y, obj_enemy_slime))
 				{
-					// Damage Type
-					switch (obj_player.weapon)
-					{
-						case obj_hands:
-						{
-							hp -= 10;
-						} break;
-						
-						case obj_stone_axe:
-						{
-							hp -= 25;
-						} break;
-						
-						case obj_stone_pick:
-						{
-							hp -= 15;	
-						} break;
-					}
+					// Weapon Damage Type
+					wep_damage_slime_switch();
 					
 					// Knock Back
+					movespeed = -1;
+					alarm[4] = 20;
 					
 					show_debug_message("SlimeHP: " + string(hp));
 				}

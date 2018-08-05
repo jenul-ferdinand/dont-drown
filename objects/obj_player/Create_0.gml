@@ -23,6 +23,10 @@ state = scr_move_state;
 
 // COMBAT
 weapon = 0;
+mouseFace = 0;
+cooldown = 0;
+cooldownRate = 0;
+
 
 // SPRITE CONTROL
 #macro RIGHT 0
@@ -31,9 +35,6 @@ weapon = 0;
 #macro DOWN 3
 face = RIGHT;
 
-// Simple Resources Counting System
-global.stone_count = 0;
-global.wood_count = 0;
 
 // Home Made Colours
 #macro c_brown make_colour_rgb(102, 51, 0)

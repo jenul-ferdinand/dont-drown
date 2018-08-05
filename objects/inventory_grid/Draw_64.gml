@@ -1,10 +1,8 @@
-//display_set_gui_size(-1, -1);
-
 if (!global.show_inv)
 {
 	// Draw The Black Rectangle
 	var x1, x2, y1, y2;
-	var rectangle_height = 182;
+	var rectangle_height = 280;
 	x1 = view_xport[0];
 	x2 = x1 + view_wport[0];
 	y1 = view_yport[0];
@@ -59,6 +57,28 @@ if (!global.show_inv)
         button[i].x = 38 + (i * 40) - k;
         button[i].y = 32 + stack;
 	}
+	
+	// Draw The Amount Of Resources
+	display_set_gui_size(-1, -1);
+	draw_set_font(fnt_crafting);
+	
+	// Stone
+	draw_text_outlined
+	(
+		25, 345, 
+		"Stone: " + string(global.stone_count), 
+		c_gray, c_black
+	);
+	
+	// Wood
+	draw_text_outlined
+	(
+		25, 365, 
+		"Wood: " + string(global.wood_count), 
+		c_brown, c_black
+	);
+		
+	draw_set_font(-1);
+	display_set_gui_size(640 , 360);
 }
 
-//display_set_gui_size(640, 360);

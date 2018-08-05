@@ -7,7 +7,7 @@ up_key	   = keyboard_check(vk_up) or keyboard_check(ord("W"));
 down_key   = keyboard_check(vk_down) or keyboard_check(ord("S"));
 walk_key   = keyboard_check(vk_control);
 run_key    = keyboard_check(vk_shift);
-attack_key = keyboard_check(vk_space);
+attack_key = mouse_check_button(mb_left);
 inv_key    = keyboard_check_pressed(ord("I"));
 
 
