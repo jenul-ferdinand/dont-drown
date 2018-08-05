@@ -7,7 +7,7 @@
         "3a7d9b2d-f3e0-4c1a-b353-7e12c4c833b9"
     ],
     "filterType": "GMScript",
-    "folderName": "Crafting",
+    "folderName": "Crafting & Dropping",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

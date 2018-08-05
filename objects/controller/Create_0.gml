@@ -1,1 +1,3 @@
-global.weapon_attack_ready = false;
+// Resources Counting
+global.stone_count = 0;
+global.wood_count = 0;

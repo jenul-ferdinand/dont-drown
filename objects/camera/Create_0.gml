@@ -2,12 +2,11 @@
 enum cam_mode
 	{
 		follow_object,
-		follow_object_smooth,
 		follow_mouse_peek,
 		move_to_follow_object,
 	}
 
-mode = cam_mode.follow_object;
+mode = cam_mode.follow_mouse_peek;
 following = obj_player;
 
 view_w = camera_get_view_width(view_camera[0]);
