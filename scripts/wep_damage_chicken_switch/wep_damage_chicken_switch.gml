@@ -17,4 +17,14 @@ switch (obj_player.weapon)
 	{
 		hp -= 50 * 0.5;
 	} break;
+	
+	case obj_steel_pick:
+	{
+		hp -= 25 * 0.5;
+	} break;
+	
+	case obj_steel_axe:
+	{
+		hp -= 100 * 0.5;	
+	} break;
 }

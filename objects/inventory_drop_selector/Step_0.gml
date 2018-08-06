@@ -3,7 +3,7 @@ if (crafting_ui.show_gui) exit;
 
 if (keyboard_check_pressed(ord("Q"))) {show_gui = !show_gui;}
 if (!show_gui) exit;
-if (mouse_wheel_down() or mouse_wheel_up()) {audio_play_sound(snd_blip_select_1, 99, 0);}
+if (mouse_wheel_down() or mouse_wheel_up()) {audio_play_sound(snd_click_sound, 99, 0);}
 
 // Selecting
 if (mouse_wheel_down()) {selected++; show_debug_message(selected);}
@@ -79,6 +79,5 @@ if (keyboard_check_pressed(ord("E")))
 			show_debug_message("Dropped Stone");
 		} 
 		break;
-		
 	}
 }

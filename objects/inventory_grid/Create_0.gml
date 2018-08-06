@@ -5,7 +5,6 @@ depth = -1000;
 Items
 0 = Stone Axe
 1 = Stone Pick
-2 = Bottled Water
 */
 
 // Display Inventory?

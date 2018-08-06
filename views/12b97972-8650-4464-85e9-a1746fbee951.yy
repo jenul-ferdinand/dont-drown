@@ -9,7 +9,8 @@
         "debfddb9-b021-4f94-83d9-599a1ccc8871",
         "d1274672-f236-4e77-a024-782924ab8b38",
         "30803c53-d7f2-4a89-b023-ba287527b8d5",
-        "87b42c22-5528-4656-9d92-82fa073938b1"
+        "87b42c22-5528-4656-9d92-82fa073938b1",
+        "b5b11d1b-d0ee-4801-a5e6-27e66d54bafb"
     ],
     "filterType": "GMScript",
     "folderName": "Weapon Scripts \/ Update Regularly",

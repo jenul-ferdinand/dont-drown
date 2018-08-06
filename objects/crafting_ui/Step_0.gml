@@ -3,7 +3,7 @@ if (inventory_drop_selector.show_gui) exit;
 
 if (keyboard_check_pressed(ord("C"))) {show_gui = !show_gui;}
 if (!show_gui) exit;
-if (mouse_wheel_down() or mouse_wheel_up()) {audio_play_sound(snd_blip_select_1, 99, 0);}
+if (mouse_wheel_down() or mouse_wheel_up()) {audio_play_sound(snd_click_sound, 99, 0);}
 
 // Selecting
 if (mouse_wheel_down()) {selected++}
@@ -12,54 +12,5 @@ if (mouse_wheel_up()) {selected--}
 if (selected < 0) {selected = 0}
 if (selected > selection_max) {selected = selection_max}
 
-if (keyboard_check_pressed(ord("E")))
-{
-	switch (selected)
-	{
-		// Stone Axe
-		case 0:
-		{	
-			if (global.wood_count >= 4 && global.stone_count >= 3)
-			{
-				// Craft
-				obj_player.weapon = obj_stone_axe;
-				scr_pickup(1);
-				show_debug_message("Stone Axe");
-				
-				// Remove Amount
-				// Wood
-				global.wood_count -= 4;
-				scr_drop(3); scr_drop(3); scr_drop(3); scr_drop(3);
-				// Stone
-				global.stone_count -= 3;
-				scr_drop(4); scr_drop(4); scr_drop(4);
-			
-				// Play Sound Effect
-				audio_play_sound(snd_hammering_1, 85, 0);
-			}
-		} break;
-		
-		// Stone Pick
-		case 1:
-		{	
-			if (global.wood_count >= 3 && global.stone_count >= 4)
-			{
-				// Craft
-				obj_player.weapon = obj_stone_pick;
-				scr_pickup(2);
-				show_debug_message("Stone Pick");
-				
-				// Remove Amount
-				// Wood
-				global.wood_count -= 3;
-				scr_drop(3); scr_drop(3); scr_drop(3); 
-				// Stone
-				global.stone_count -= 4;
-				scr_drop(4); scr_drop(4); scr_drop(4); scr_drop(4);
-				
-				// Play Sound Effect
-				audio_play_sound(snd_hammering_1, 85, 0);
-			}
-		} break;
-	}
-}
+// Weapon Cost Script
+if (keyboard_check_pressed(ord("E"))) { wep_crafting_cost_switch(); }

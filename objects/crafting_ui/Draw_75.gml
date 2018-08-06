@@ -18,9 +18,17 @@ var vector_move_xy = -32;
 var drawx = 10;
 var drawy = 300;
 
+// Black Box
+var c = c_black;
+draw_set_alpha(0.8);
+draw_rectangle_colour(0, 0, 600, 560, c,c,c,c, false);
+draw_set_alpha(1);
+
 // Ui Name
 draw_set_font(fnt_scrolling_ui);
-draw_text(10, 10, "Crafting");
+draw_set_colour(c_lime);
+draw_text(450, 10, "Crafting");
+draw_set_colour(c_white);
 draw_set_font(-1);
 	
 for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
@@ -30,7 +38,7 @@ for (i = max(anim - 2, 0); i < min(anim+2, array_length_1d(selection)); i++)
 	
 	// UI
 	draw_set_font(fnt_scrolling_ui);
-	draw_set_colour((i == anim)? c_white: c_gray);
+	draw_set_colour((i == anim)? c_lime: c_white);
 	draw_set_alpha((i == anim)? 1: 0.5);
 	draw_text_transformed
 	(

@@ -24,13 +24,16 @@ if (!global.show_inv)
 			{
 				scr_drop_slot(slot);
 			}
+			
 			if (global.mouse_item != -1)
 			{
 				scr_pickup_slot(global.mouse_item, slot);
 			}
 			global.mouse_item = item;
+			
 		}
 		
+		// Equipping
 		if (rclick)
 		{
 			if (item != -1)
