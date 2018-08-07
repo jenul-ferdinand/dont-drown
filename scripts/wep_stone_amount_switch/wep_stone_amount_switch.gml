@@ -2,7 +2,7 @@
 
 switch (hitfrom)
 {
-	case "Hands": { global.stone_count += 5; } break;
-	case "Stone Pick": { global.stone_count += 8; } break;
-	case "Steel Pick": { global.stone_count += 12; } break;
+	case "Hands": { global.iron_count += 5; } break;
+	case "Stone Pick": { global.iron_count += 8; } break;
+	case "Steel Pick": { global.iron_count += 12; } break;
 }

@@ -1,4 +1,4 @@
-if ((!place_meeting(x, y, obj_collision) or (!place_meeting(x, y, obj_tree) or (!place_meeting(x, y, obj_stone)))))
+if ((!place_meeting(x, y, obj_collision) or (!place_meeting(x, y, obj_tree) or (!place_meeting(x, y, obj_stone_node)))))
 {
 	//Am i SCARED?
 	var fear_obj = instance_nearest(x, y, animal_enemy);

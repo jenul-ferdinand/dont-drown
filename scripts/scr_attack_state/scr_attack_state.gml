@@ -87,20 +87,32 @@ if (image_index >= first_index and image_index < last_index)
 		// Create The Damage
 		with (instance_create_layer(xx, yy, "Combat", obj_damage))
 		{
-			#region Stone
+			#region Stone Node
 			if (pick_parent || obj_hands)
 			{
-				with (instance_place(x, y, obj_stone))
+				with (instance_place(x, y, obj_stone_node))
 				{
 					// Damage And Item Type Script
 					wep_damage_stone_switch();
 					
-					// Debug
-					show_debug_message("StoneHP: " + string(hp));
-					
 					// Hit
 					if (!hit) {	hit = true; } 
 					else { hit = false; }
+				}
+			}
+			#endregion
+			
+			#region Iron Node
+			if (pick_parent || obj_hands)
+			{
+				with (instance_place(x, y, obj_iron_node))
+				{
+					// Damage And Item Type Script
+					wep_damage_iron_switch();
+					
+					// Hit 
+					if (!hit) { hit = true; }
+					else { hit = false; } 
 				}
 			}
 			#endregion
@@ -112,9 +124,6 @@ if (image_index >= first_index and image_index < last_index)
 				{
 					// Damage And Item Type Script
 					wep_damage_tree_switch();
-					
-					// Debug
-					show_debug_message("TreeHP: " + string(hp));
 					
 					// Hit
 					if (!hit) { hit = true; } 

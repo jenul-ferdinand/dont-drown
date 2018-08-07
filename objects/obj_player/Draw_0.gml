@@ -6,7 +6,6 @@ if (state == scr_move_state)
 else
 	{
 		draw_sprite(spr_player_shadow, 0, x, y-8);
-		
 	}
 	
 

@@ -62,21 +62,32 @@ if (!global.show_inv)
 	display_set_gui_size(-1, -1);
 	draw_set_font(fnt_crafting);
 	
-	// Stone
+	// Wood
 	draw_text_outlined
 	(
 		25, 345, 
+		"Wood: " + string(global.wood_count), 
+		c_brown, c_black
+	);
+	
+	// Stone
+	draw_text_outlined
+	(
+		25, 365, 
 		"Stone: " + string(global.stone_count), 
 		c_gray, c_black
 	);
 	
-	// Wood
+	// Iron
 	draw_text_outlined
 	(
-		25, 365, 
-		"Wood: " + string(global.wood_count), 
-		c_brown, c_black
+		25, 385,
+		"Iron: " + string(global.iron_count),
+		c_white, c_black
 	);
+	
+	
+	
 		
 	draw_set_font(-1);
 	display_set_gui_size(640 , 360);
