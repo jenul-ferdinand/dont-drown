@@ -1,1 +1,0 @@
-InitializeWaveLayer("Island");

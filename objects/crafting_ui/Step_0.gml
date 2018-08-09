@@ -1,4 +1,4 @@
-if (!global.show_inv) exit;
+if (global.show_inv) exit;
 if (inventory_drop_selector.show_gui) exit;
 
 if (keyboard_check_pressed(ord("C"))) {show_gui = !show_gui;}

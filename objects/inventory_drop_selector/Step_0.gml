@@ -1,4 +1,4 @@
-if (!global.show_inv) exit;
+if (global.show_inv) exit;
 if (crafting_ui.show_gui) exit;
 
 if (keyboard_check_pressed(ord("Q"))) {show_gui = !show_gui;}

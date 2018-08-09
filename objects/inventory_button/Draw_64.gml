@@ -5,17 +5,13 @@ var rclick = mouse_check_button_pressed(mb_right);
 var mousex = device_mouse_x_to_gui(0);
 var mousey = device_mouse_y_to_gui(0);
 
-if (!global.show_inv)
+if (global.show_inv == true)
 {
 	// If In Slot Area
 	if (abs(mousex - x) < 16) and (abs(mousey - y) < 16)
 	{
-		// Draw The White Overlay
-		draw_set_colour(c_white);
-		draw_set_alpha(0.33);
-		draw_rectangle(x-16, y-16, x+15, y+14, 0);
-		draw_set_alpha(1);
-		draw_set_colour(-1);
+		// Draw The Highlight
+		draw_sprite(spr_border_highlight, 0, x, y);
 	
 		// Clicking
 		if (lclick)

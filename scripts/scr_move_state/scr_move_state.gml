@@ -8,7 +8,7 @@ if (grounded)
 	if (weapon != 0)
 	{
 		// Inventory Not Open
-		if (global.show_inv)
+		if (global.show_inv == false)
 		{
 			// Attack Key Pressed
 			if (attack_key) && (cooldown <= 0)

@@ -1,4 +1,4 @@
-if (!global.show_inv)
+if (global.show_inv == true)
 {
 	// Draw The Black Rectangle
 	var x1, x2, y1, y2;

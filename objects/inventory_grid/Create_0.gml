@@ -8,7 +8,7 @@ Items
 */
 
 // Display Inventory?
-global.show_inv = true;
+global.show_inv = false;
 
 // Total Amount Of Slots In The Inventory
 global.max_items = 60;
@@ -16,7 +16,7 @@ global.max_items = 60;
 stack = 0;
 
 // Array
-for (i = 0; i < global.max_items; i++)
+for (var i = 0; i < global.max_items; i++)
 {
 	global.inventory[i] = -1;
 	button[i] = instance_create_depth(0, 0, -1001, inventory_button);
