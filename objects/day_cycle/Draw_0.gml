@@ -18,12 +18,19 @@ if (draw_daylight)
 		draw_sprite(spr_player_glow, 0, x, y-6);
 		gpu_set_blendmode(bm_normal);
 	}
+	
+	with (obj_iron_node)
+	{
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite(spr_player_glow, 0, x, y-7);
+		gpu_set_blendmode(bm_normal);
+	}
 			
 	with (obj_enemy_slime)
 	{
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite(spr_player_glow, 0, x, y);
-		gpu_set_blendmode(bm_normal);	
+		gpu_set_blendmode(bm_normal);
 	}
 			
 	with (obj_chicken)

@@ -1,3 +1,5 @@
 image_index = 1;
 image_speed = 0;
 number = 1;
+
+event_inherited();

@@ -26,6 +26,9 @@ day_night_surface = surface_create(room_width, room_height);
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
+// Debug
+debug = false;
+
 enum phase 
 	{
 		sunrise   = 0,

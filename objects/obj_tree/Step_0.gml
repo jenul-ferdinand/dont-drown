@@ -1,6 +1,9 @@
 // If Hit
 if (hit == true)
 {
+	// Item Type Amount Receival
+	wep_tree_amount_switch();
+	
 	// Play Sound
 	audio_play_sound(snd_wood_hit_1, 98, 0);
 }
@@ -8,8 +11,6 @@ if (hit == true)
 // If HP Is <= Zero
 if (hp <= 0)
 {
-	// Item Type Amount Receival
-	wep_tree_amount_switch();
 	
 	// Destroy The Tree...
 	instance_destroy();

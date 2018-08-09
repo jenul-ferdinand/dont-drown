@@ -1,8 +1,5 @@
 if (hit == true)
 {
-	// Item Type Amount Receival
-	wep_stone_amount_switch();
-	
 	audio_play_sound(snd_stone_hit_1, 97, 0);
 	wobbling = true;
 }

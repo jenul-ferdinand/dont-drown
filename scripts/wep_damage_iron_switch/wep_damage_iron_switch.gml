@@ -3,25 +3,21 @@
 // Remove Hp
 switch (obj_player.weapon)
 {
-	case obj_hands: { hp -= 5 * 0.5; } break;
-	case obj_stone_pick: { hp -= 10 * 0.5; } break;
-	case obj_steel_pick: { hp -= 15 * 0.5; } break;
-}
+	// Hands
+	case obj_hands: 
+		hp -= 5 / 2;
+		global.iron_count += 50 / 2;
+	break;
 	
-// Hands
-if (instance_exists(obj_hands) && (obj_player.weapon == obj_hands))
-{
-	hitfrom = "Hands";
-}
+	// Stone Pick
+	case obj_stone_pick: 
+		hp -= 10 / 2; 
+		global.iron_count += 100 / 2;
+	break;
 	
-// Stone Pick
-if (instance_exists(obj_stone_pick) && (obj_player.weapon == obj_stone_pick))
-{
-	hitfrom = "Stone Pick";
-}
-
-// Steel Pick
-if (instance_exists(obj_steel_pick) && (obj_player.weapon == obj_steel_pick))
-{
-	hitfrom = "Steel Pick";	
+	// Steel
+	case obj_steel_pick:
+		hp -= 15 / 2;
+		global.iron_count += 200 / 2;
+	break;
 }
