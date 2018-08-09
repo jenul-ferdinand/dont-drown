@@ -1,12 +1,16 @@
 var item = global.inventory[slot];
 var lclick = mouse_check_button_pressed(mb_left);
 var rclick = mouse_check_button_pressed(mb_right);
+var equipped = false;
 
 var mousex = device_mouse_x_to_gui(0);
 var mousey = device_mouse_y_to_gui(0);
 
 if (global.show_inv == true)
 {
+	// Draw The Back Borders
+	draw_sprite(spr_border, 0, x + 2, y + 2);
+	
 	// If In Slot Area
 	if (abs(mousex - x) < 16) and (abs(mousey - y) < 16)
 	{
@@ -35,6 +39,7 @@ if (global.show_inv == true)
 			if (item != -1)
 			{	
 				wep_inventory_item_switch();
+				equipped = true;
 			}
 		}
 	}

@@ -8,7 +8,7 @@
         "5d68646f-5a39-45ee-8b6b-4f9c563910fb"
     ],
     "filterType": "GMSprite",
-    "folderName": "Foliage",
+    "folderName": "Resources",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

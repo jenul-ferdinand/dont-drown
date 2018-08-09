@@ -2,7 +2,7 @@
 if (hp <= 0)
 {
 	// Item Type Amount Receival
-	wep_stone_amount_switch();
+	wep_iron_amount_switch();
 	
 	// Destroy The Stone...
 	instance_destroy();

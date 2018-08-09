@@ -1,17 +1,17 @@
-// If HP <= Zero
-if (hp <= 0)
+if (hit == true)
 {
 	// Item Type Amount Receival
 	wep_stone_amount_switch();
 	
-	// Destroy The Stone...
-	instance_destroy();
-}
-	
-if (hit == true)
-{
 	audio_play_sound(snd_stone_hit_1, 97, 0);
 	wobbling = true;
+}
+
+// If HP <= Zero
+if (hp <= 0)
+{
+	// Destroy The Stone...
+	instance_destroy();
 }
 
 #region Wobble

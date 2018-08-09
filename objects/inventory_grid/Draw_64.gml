@@ -86,9 +86,6 @@ if (global.show_inv == true)
 		c_white, c_black
 	);
 	
-	
-	
-		
 	draw_set_font(-1);
 	display_set_gui_size(640 , 360);
 }
