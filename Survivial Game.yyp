@@ -778,7 +778,7 @@
             "Key": "57259546-921a-42e9-85ad-31e35a970ede",
             "Value": {
                 "id": "4cdca706-6177-4adf-bf8a-6e3f87046d3c",
-                "resourcePath": "objects\\pk_stone_pick_21\\pk_stone_pick_21.yy",
+                "resourcePath": "objects\\pk_steel_pick_22\\pk_steel_pick_22.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1018,7 +1018,7 @@
             "Key": "77b657a7-dd46-4973-b450-8ce1eeaae9fa",
             "Value": {
                 "id": "c15a441b-4c0a-44d1-ab4b-c21872aadb7e",
-                "resourcePath": "objects\\pk_stone_axe_22\\pk_stone_axe_22.yy",
+                "resourcePath": "objects\\pk_steel_axe_21\\pk_steel_axe_21.yy",
                 "resourceType": "GMObject"
             }
         },

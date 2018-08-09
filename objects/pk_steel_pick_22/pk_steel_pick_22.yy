@@ -2,7 +2,7 @@
     "id": "57259546-921a-42e9-85ad-31e35a970ede",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "pk_stone_pick_21",
+    "name": "pk_steel_pick_22",
     "eventList": [
         {
             "id": "626c128e-d348-49e6-ae42-fb82d02e86ba",

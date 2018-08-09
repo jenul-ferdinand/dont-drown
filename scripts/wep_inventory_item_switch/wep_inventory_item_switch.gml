@@ -4,13 +4,28 @@ var item = global.inventory[slot];
 switch (item)
 {
 	// Hands
-	case 0: { obj_player.weapon = obj_hands; } break;				
+	case 0:	
+		var ic = scr_itemcheck(0);
+		if (ic) obj_player.weapon = obj_hands;
+	break;
 	// Stone Axe
-	case 1: { obj_player.weapon = obj_stone_axe; } break;		
+	case 1: 
+		var ic = scr_itemcheck(1);
+		if (ic) obj_player.weapon = obj_stone_axe; 
+	break;		
 	// Stone Pick
-	case 2: { obj_player.weapon = obj_stone_pick; } break;
+	case 2:	
+		var ic = scr_itemcheck(2);
+		if (ic) obj_player.weapon = obj_stone_pick; 
+	break;
 	// Steel Axe
-	case 3: { obj_player.weapon = obj_steel_axe; } break;
+	case 21: 
+		var ic = scr_itemcheck(21);
+		if (ic) obj_player.weapon = obj_steel_axe; 
+	break;
 	// Steel Pick
-	case 4: { obj_player.weapon = obj_steel_pick; } break;
+	case 22: 
+		var ic = scr_itemcheck(22);
+		if (ic) obj_player.weapon = obj_steel_pick; 
+	break;
 }

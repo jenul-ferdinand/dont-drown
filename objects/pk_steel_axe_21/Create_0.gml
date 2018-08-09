@@ -1,3 +1,3 @@
-number = 22;
+number = 21;
 
 event_inherited();

@@ -1,18 +1,18 @@
 {
-    "id": "77b657a7-dd46-4973-b450-8ce1eeaae9fa",
+    "id": "57259546-921a-42e9-85ad-31e35a970ede",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "pk_stone_axe_22",
+    "name": "pk_steel_pick_21",
     "eventList": [
         {
-            "id": "e52a84ce-481e-4038-a1df-abd481340197",
+            "id": "626c128e-d348-49e6-ae42-fb82d02e86ba",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "77b657a7-dd46-4973-b450-8ce1eeaae9fa"
+            "m_owner": "57259546-921a-42e9-85ad-31e35a970ede"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "30c7807e-2eac-4637-bf8b-af72e9e33b19",
+    "spriteId": "98242c84-7463-4776-b95f-388535b4d0fe",
     "visible": true
 }
