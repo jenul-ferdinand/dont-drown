@@ -16,12 +16,12 @@ else if (obj_player.weapon == obj_stone_pick)
 	draw_sprite(spr_items, 2, 600, 330);
 }
 // Steel Pick
-else if (obj_player.weapon == obj_steel_pick)
+else if (obj_player.weapon == obj_steel_axe)
 {
 	draw_sprite(spr_items, 21, 600, 330);
 }
 // Steel Axe
-else if (obj_player.weapon == obj_steel_axe)
+else if (obj_player.weapon == obj_steel_pick)
 {
-	draw_sprite(spr_items, 22, 600, 300);	
+	draw_sprite(spr_items, 22, 600, 330);	
 }

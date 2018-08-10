@@ -25,8 +25,8 @@
         "e0368cca-2373-485c-9d9a-7895c260fd19",
         "26f948c0-c2d0-44a8-a270-8e5474579dd0",
         "60a32b4f-8013-406f-b654-e14c931634a0",
-        "98242c84-7463-4776-b95f-388535b4d0fe",
-        "30c7807e-2eac-4637-bf8b-af72e9e33b19"
+        "30c7807e-2eac-4637-bf8b-af72e9e33b19",
+        "98242c84-7463-4776-b95f-388535b4d0fe"
     ],
     "filterType": "GMSprite",
     "folderName": "Pickups",

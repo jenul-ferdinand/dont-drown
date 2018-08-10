@@ -60,24 +60,24 @@ if (image_index >= first_index and image_index < last_index)
 		// Down
 		case spr_player_attack_down:
 			xx = x;
-			yy = y + 9;
+			yy = y + 10;
 		break;
 		
 		// Up
 		case spr_player_attack_up:
 			xx = x;
-			yy = y - 18;
+			yy = y - 19;
 		break;
 		
 		// Right
 		case spr_player_attack_right:
-			xx = x + 12;
+			xx = x + 13;
 			yy = y - 7;
 		break;
 		
 		// Left
 		case spr_player_attack_left:
-			xx = x - 12;
+			xx = x - 13;
 			yy = y - 7;
 		break;
 	}
@@ -96,7 +96,7 @@ if (image_index >= first_index and image_index < last_index)
 					wep_damage_stone_switch();
 					
 					// Hit
-					if (!hit) {	hit = true; } 
+					if (!hit) {	hit = true; }
 					else { hit = false; }
 				}
 			}

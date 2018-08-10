@@ -14,8 +14,6 @@ if (item != -1)
 	{
 		if (keyboard_check(vk_shift) && (mouse_check_button_pressed(mb_left)))
 		{
-			// Item Number
-			//var ic = scr_itemcheck(global.mouse_item);
 			instance_create_layer
 			(
 				obj_player.x, obj_player.y, 

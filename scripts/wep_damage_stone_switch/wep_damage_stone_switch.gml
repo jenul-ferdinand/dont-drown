@@ -16,5 +16,6 @@ switch (obj_player.weapon)
 	case obj_steel_pick: 
 		hp -= 15 / 2;
 		global.stone_count += 200 / 2;
+
 	break;
 }

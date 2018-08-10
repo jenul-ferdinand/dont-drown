@@ -466,7 +466,7 @@
             "Key": "30c7807e-2eac-4637-bf8b-af72e9e33b19",
             "Value": {
                 "id": "0a457d6e-873a-40ce-a8b9-65f7a31413ab",
-                "resourcePath": "sprites\\spr_steel_axe_22\\spr_steel_axe_22.yy",
+                "resourcePath": "sprites\\spr_steel_axe_21\\spr_steel_axe_21.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1378,7 +1378,7 @@
             "Key": "98242c84-7463-4776-b95f-388535b4d0fe",
             "Value": {
                 "id": "654ac90e-419b-4c68-b957-9f1af8b987ed",
-                "resourcePath": "sprites\\spr_steel_pick_21\\spr_steel_pick_21.yy",
+                "resourcePath": "sprites\\spr_steel_pick_22\\spr_steel_pick_22.yy",
                 "resourceType": "GMSprite"
             }
         },
