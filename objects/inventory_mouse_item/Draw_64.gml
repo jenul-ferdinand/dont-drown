@@ -1,3 +1,4 @@
+if (!(instance_exists(obj_player))) exit;
 var item = global.mouse_item;
 
 var mousex = device_mouse_x_to_gui(0);

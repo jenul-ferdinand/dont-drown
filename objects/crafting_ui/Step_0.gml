@@ -1,3 +1,4 @@
+if (!(instance_exists(obj_player))) exit;
 if (global.show_inv) exit;
 if (inventory_drop_selector.show_gui) exit;
 

@@ -1,3 +1,4 @@
+if (!(instance_exists(obj_player))) exit;
 if (global.show_inv) exit;
 if (crafting_ui.show_gui) exit;
 

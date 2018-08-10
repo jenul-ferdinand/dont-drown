@@ -148,24 +148,22 @@ if (image_index >= first_index and image_index < last_index)
 			#region Slime
 			// Slime
 			if (obj_player.weapon != 0)
-			{
-				with (instance_place(x, y, obj_enemy_slime))
-				{
-					// Weapon Damage Type
-					wep_damage_slime_switch();
-					
-					// Knock Back
-					movespeed = -1;
-					alarm[4] = 20;
-					
-					show_debug_message("SlimeHP: " + string(hp));
-				}
-				
+			{		
 				with(obj_enemy_slime)
 				{
 					if (place_meeting(x, y, obj_damage))
 					{
-						// White Flash
+						// Weapon Damage Type
+						wep_damage_slime_switch();
+					
+						// Knock Back
+						movespeed = -1;
+						alarm[4] = 20;
+						
+						// Debug
+						// show_debug_message("SlimeHP: " + string(hp));
+						
+						// Hit Flash
 						alarm[2] = 1;	
 					}
 				}

@@ -66,6 +66,11 @@ phy_position_y += vspd;
 
 #endregion
 
+// Mouse Look 4 Directions
+mouseFace = (point_direction(x, y, mouse_x, mouse_y)+45) div 90;
+// Set The Direction To Equal The Mouse Look
+dir = mouseFace;
+
 // Check For Ground Tile Collision
 if (tilemap_get_at_pixel(layer_tilemap_get_id("Island"), x, y)) 
 {
@@ -73,13 +78,8 @@ if (tilemap_get_at_pixel(layer_tilemap_get_id("Island"), x, y))
 } 
 else
 {
-	grounded = false;	
+	grounded = false;
 }
-
-// Mouse Look 4 Directions
-mouseFace = (point_direction(x, y, mouse_x, mouse_y)+45) div 90;
-// Set The Direction To Equal The Mouse Look
-dir = mouseFace;
 
 if (grounded)
 {

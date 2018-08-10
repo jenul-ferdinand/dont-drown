@@ -1,3 +1,4 @@
+if (!(instance_exists(obj_player))) exit;
 var item = global.inventory[slot];
 var lclick = mouse_check_button_pressed(mb_left);
 var rclick = mouse_check_button_pressed(mb_right);

@@ -1,3 +1,4 @@
+if (!(instance_exists(obj_player))) exit;
 if (global.show_inv == true)
 {
 	// Draw The Black Rectangle

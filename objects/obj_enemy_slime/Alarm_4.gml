@@ -1,1 +1,1 @@
-movespeed = 1;
+movespeed = normal_speed;
