@@ -1239,14 +1239,6 @@
             }
         },
         {
-            "Key": "8c1cc99f-1b0c-4a04-bb70-38422b68910c",
-            "Value": {
-                "id": "cfb5676e-edd2-41e7-8d40-c46ea09d7633",
-                "resourcePath": "objects\\inventory_drop_selector\\inventory_drop_selector.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8c2770be-dd6a-49cc-95fd-27a46269aa0c",
             "Value": {
                 "id": "d67263b1-cdd6-427f-8976-3e980d29feba",
