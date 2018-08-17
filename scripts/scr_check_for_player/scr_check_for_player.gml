@@ -13,7 +13,7 @@ if (instance_exists(obj_player))
 		targetX = obj_player.x;
 		targetY = obj_player.y;
 	}
-	// If The Player Doesnt Exist
+	// If You Cant See The Player
 	else
 	{
 		// Choose New State

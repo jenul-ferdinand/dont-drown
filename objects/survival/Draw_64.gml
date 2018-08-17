@@ -18,11 +18,6 @@ draw_set_alpha(a);
 draw_healthbar(12, 600, 212, 630, global.thirst, c_black, c_blue, c_blue, -1, 1, 1);
 draw_set_alpha(1);
 draw_text_outlined(14, 605, "Thirst", c_blue, c_black);
-// Sanity
-draw_set_alpha(a);
-draw_healthbar(12, 560, 212, 590, global.sanity, c_black, c_purple, c_purple, -1, 1, 1);
-draw_set_alpha(1);
-draw_text_outlined(14, 565, "Sanity", c_purple, c_black);
 
 if (show_oxygen_bar == true)
 {
@@ -32,7 +27,6 @@ if (show_oxygen_bar == true)
 	draw_set_alpha(1);
 	draw_text_outlined(485, 685, "Oxygen", c_blue, c_black);
 }
-		
-		
+
+// Reset The Font
 draw_set_font(-1);
-display_set_gui_size(640 , 360);

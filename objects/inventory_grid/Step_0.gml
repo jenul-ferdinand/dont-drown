@@ -9,9 +9,4 @@ if (global.show_inv == true)
 	{
 		crafting_ui.show_gui = !crafting_ui.show_gui;
 	}
-	
-	if (inventory_drop_selector.show_gui)
-	{
-		inventory_drop_selector.show_gui = !inventory_drop_selector.show_gui;	
-	}
 }

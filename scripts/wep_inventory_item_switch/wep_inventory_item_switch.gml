@@ -21,14 +21,24 @@ if (instance_exists(obj_player))
 			if (ic) obj_player.weapon = obj_stone_pick; 
 		break;
 		// Steel Axe
-		case 21: 
-			var ic = scr_itemcheck(21);
+		case 8: 
+			var ic = scr_itemcheck(8);
 			if (ic) obj_player.weapon = obj_steel_axe; 
 		break;
 		// Steel Pick
-		case 22: 
-			var ic = scr_itemcheck(22);
+		case 9: 
+			var ic = scr_itemcheck(9);
 			if (ic) obj_player.weapon = obj_steel_pick; 
+		break;
+		// Wood Axe
+		case 10:
+			var ic = scr_itemcheck(10);
+			if (ic) obj_player.weapon = obj_wood_axe;
+		break;
+		// Wood Pick
+		case 11:
+			var ic = scr_itemcheck(11);
+			if (ic) obj_player.weapon = obj_wood_pick;
 		break;
 	}
 }

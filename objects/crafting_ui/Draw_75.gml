@@ -1,6 +1,5 @@
 if (!(instance_exists(obj_player))) exit;
 if (!show_gui) exit;
-if (inventory_drop_selector.show_gui) exit;
 
 display_set_gui_size(view_wport[0], view_hport[0]);
 // Input

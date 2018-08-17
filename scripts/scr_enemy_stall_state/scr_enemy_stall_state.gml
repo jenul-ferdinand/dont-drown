@@ -3,6 +3,9 @@
 // Wait Until The Alarm Goes Out
 if (alarm[1] <= 0)
 {
-	// Switch To The Idle State
-	state = scr_enemy_idle_state;
+	if (instance_exists(obj_player))
+	{
+		// Switch To The Idle State
+		state = scr_enemy_idle_state;
+	}
 }

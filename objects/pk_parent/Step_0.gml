@@ -7,7 +7,8 @@ if (drop_move)
 }
 else
 {
-	if (!(mouse_check_button(mb_middle))) exit;
+	if (!keyboard_check(ord("H"))) exit;
+	//if (!(keyboard_check_pressed(ord("H")))) exit;
 	
 	var px = obj_player.x;
 	var py = obj_player.y;
@@ -16,7 +17,7 @@ else
 	if (point_in_circle(px, py, x, y, r))
 	{
 		// Are we On Top Of The Player
-		r = 2;
+		r = 4;
 		if (!(point_in_circle(px, py, x, y, r)))
 		{
 			// Move Towards The Player

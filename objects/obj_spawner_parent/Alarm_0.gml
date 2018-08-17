@@ -1,5 +1,4 @@
-if (spawnObject != noone)
-{
+if (spawnObject != noone) {
 	instance_create_layer(spawnX, spawnY, "Instances", spawnObject);
 }
 

@@ -1,11 +1,11 @@
 if (draw_daylight)
 {
 	
-	// Draw Darkness
-	var c = light_colour;
-	draw_set_alpha(darkness);
-	draw_rectangle_colour(0, 0, room_width, room_height, c,c,c,c, false);
-	draw_set_alpha(1);
+	//// Draw Darkness
+	//var c = light_colour;
+	//draw_set_alpha(darkness);
+	//draw_rectangle_colour(0, 0, room_width, room_height, c,c,c,c, false);
+	//draw_set_alpha(1);
 	
 		
 	surface_set_target(day_night_surface);

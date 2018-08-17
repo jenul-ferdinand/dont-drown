@@ -1,40 +1,17 @@
-//Set up animal
-randomise();
-direction = ANIMAL_RIGHT;
-move_rate = 0.1;
-run_rate = 0.5;
-state = IDLE;
-next_state = IDLE;
-info = "IDLE";
+state = scr_animal_idle_state;
+phy_fixed_rotation = true;
 
-//Animation
-image_speed = 4;
-sprite_index = spr_chicken_idle;
+// Animation
+image_speed = 0;
 
-//What the bunny is interested in
-target_x = x;
-target_y = y;
-
-//Debug
-debug = false;
-
-//Fear
-fear_distance = 100;
-//Food
-food_distance = 150;
-food_in_belly = 100;
-hunger_level = 50;
-hunger_rate = 1;
-starve_level = 5;
-//Sleep
-sleep_level = 0;
-sleepy = 100;
-sleepy_rate = 1;
-must_sleep = 200;
-
-//Combat
+// Random Movement
+alarm[0] = room_speed * irandom_range(2, 5);
+// Movement
+normal_speed = 1;
+movespeed = normal_speed;
+// Combat
 hp = 100;
+sight = 64;
 
-//Laying Eggs
-egg_rate = room_speed*300;
-alarm[0] = egg_rate;
+targetX = 0;
+targetY = 0;

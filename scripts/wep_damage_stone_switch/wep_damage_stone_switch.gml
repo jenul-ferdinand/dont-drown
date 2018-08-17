@@ -4,18 +4,18 @@
 switch (obj_player.weapon)
 {
 	case obj_hands:
-		hp -= 5 / 2;
-		global.stone_count += 50 / 2;
+		hp -= 10 / 2;
+		global.stone_count += 5 / 2;
 	break;
 	
 	case obj_stone_pick: 
-		hp -= 10 / 2; 
-		global.stone_count += 100 / 2;
+		hp -= 20 / 2; 
+		global.stone_count += 10 / 2;
 	break;
 	
 	case obj_steel_pick: 
-		hp -= 15 / 2;
-		global.stone_count += 200 / 2;
+		hp -= 35 / 2;
+		global.stone_count += 20 / 2;
 
 	break;
 }

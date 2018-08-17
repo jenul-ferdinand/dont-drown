@@ -13,6 +13,7 @@ alarm[0] = room_speed * irandom_range(2, 5);
 
 // Sight Range
 sight = 64;
+
 // Target
 targetX = 0;
 targetY = 0;

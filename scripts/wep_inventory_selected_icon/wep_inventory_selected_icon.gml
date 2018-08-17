@@ -5,6 +5,16 @@ if (obj_player.weapon == obj_hands)
 {
 	draw_sprite(spr_items, 0, 600, 330);
 }
+// Wood Axe
+else if (obj_player.weapon == obj_wood_axe)
+{
+	draw_sprite(spr_items, 11, 600, 330);	
+}
+// Wood Pick
+else if (obj_player.weapon == obj_wood_pick)
+{
+	draw_sprite(spr_items, 12, 600, 330);	
+}
 // Stone Axe
 else if (obj_player.weapon == obj_stone_axe)
 {
@@ -18,10 +28,10 @@ else if (obj_player.weapon == obj_stone_pick)
 // Steel Pick
 else if (obj_player.weapon == obj_steel_axe)
 {
-	draw_sprite(spr_items, 21, 600, 330);
+	draw_sprite(spr_items, 9, 600, 330);
 }
 // Steel Axe
 else if (obj_player.weapon == obj_steel_pick)
 {
-	draw_sprite(spr_items, 22, 600, 330);	
+	draw_sprite(spr_items, 10, 600, 330);	
 }

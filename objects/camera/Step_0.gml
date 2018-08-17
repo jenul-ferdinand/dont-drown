@@ -10,8 +10,11 @@ switch (mode)
 	break;
 			
 	case cam_mode.follow_mouse_peek:
-		cx = lerp(following.x, mouse_x, 0.2) - (view_w/2);
-		cy = lerp(following.y, mouse_y, 0.2) - (view_h/2);
+		cx = lerp(following.x, mouse_x, 0.1) - (view_w/2);
+		cy = lerp(following.y, mouse_y, 0.1) - (view_h/2);
+		cx += random_range(-shake, shake);
+		cy += random_range(-shake, shake);
+		shake *= 0.9;
 	break;
 			
 	case cam_mode.move_to_follow_object:

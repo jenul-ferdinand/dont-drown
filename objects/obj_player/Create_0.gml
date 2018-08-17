@@ -11,9 +11,7 @@ len = 0;
 dir = 0;
 
 // Player Movement Speeds
-walk_spd = 1;
 normal_spd = 2;
-run_spd = 3;
 spd = normal_spd;
 grounded = false;
 
@@ -29,7 +27,6 @@ mouseFace = 0;
 cooldown = 0;
 cooldownRate = 0;
 
-
 // SPRITE CONTROL
 #macro RIGHT 0
 #macro UP 1
@@ -37,9 +34,10 @@ cooldownRate = 0;
 #macro DOWN 3
 face = RIGHT;
 
-
 // Home Made Colours
 #macro c_brown make_colour_rgb(102, 51, 0)
+#macro c_magenta make_colour_rgb(255,0,255)
+#macro c_dark_magenta make_colour_rgb(139,0,139)
 
 
 

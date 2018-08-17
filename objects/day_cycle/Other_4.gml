@@ -2,6 +2,7 @@ switch (room)
 	{
 		// Put Rooms That You DO Want To Draw Here
 		case rm_island_2:
+		case rm_island:
 
 		draw_daylight = true; break;
 			

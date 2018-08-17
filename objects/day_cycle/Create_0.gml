@@ -30,10 +30,10 @@ gui_height = display_get_gui_height();
 debug = false;
 
 enum phase 
-	{
-		sunrise   = 0,
-		daytime	  = 2.5,
-		sunset    = 12,
-		nighttime = 16,
-	}
+{
+	sunrise   = 0,
+	daytime	  = 2.5,
+	sunset    = 12,
+	nighttime = 16,
+}
 

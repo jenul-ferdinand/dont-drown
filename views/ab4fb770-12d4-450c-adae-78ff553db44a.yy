@@ -5,8 +5,7 @@
     "name": "ab4fb770-12d4-450c-adae-78ff553db44a",
     "children": [
         "d5aec07d-1e43-4793-a2f5-33a1f3090f63",
-        "f9907987-4c44-4a40-92b1-7c53aaf7f753",
-        "c0cd1086-74db-4367-9259-63ac945d508b"
+        "f9907987-4c44-4a40-92b1-7c53aaf7f753"
     ],
     "filterType": "GMObject",
     "folderName": "Collisions",
