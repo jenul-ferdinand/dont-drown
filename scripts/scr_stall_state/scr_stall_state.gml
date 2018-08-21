@@ -1,0 +1,1 @@
+/// @desc scr_stall_state();

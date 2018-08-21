@@ -1,6 +1,3 @@
-global.player_hp = 100;
-global.hunger = 100;
-global.thirst = 100;
 global.oxygen = 100;
 
 hunger_rate = room_speed*20;

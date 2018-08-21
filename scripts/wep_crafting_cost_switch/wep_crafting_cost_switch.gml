@@ -2,8 +2,44 @@
 
 switch (selected)
 {
-	// Stone Axe
+	// Wood Axe
 	case 0:
+	{	
+		if (global.wood_count >= _wood_axe_wood)
+		{
+			// Craft
+			obj_player.weapon = obj_wood_axe;
+			scr_pickup(10);
+				
+			// Remove Amount
+			// Wood
+			global.wood_count -= _wood_axe_wood;
+			
+			// Play Sound Effect
+			audio_play_sound(snd_hammering_1, 85, 0);
+		}
+	} break;
+	
+	// Wood Pick
+	case 1:
+	{	
+		if (global.wood_count >= _wood_pick_wood)
+		{
+			// Craft
+			obj_player.weapon = obj_wood_pick;
+			scr_pickup(11);
+				
+			// Remove Amount
+			// Wood
+			global.wood_count -= _wood_axe_wood;
+			
+			// Play Sound Effect
+			audio_play_sound(snd_hammering_1, 85, 0);
+		}
+	} break;
+	
+	// Stone Axe
+	case 2:
 	{	
 		if (global.wood_count >= _stone_axe_wood && global.stone_count >= _stone_axe_stone)
 		{
@@ -24,7 +60,7 @@ switch (selected)
 	} break;
 		
 	// Stone Pick
-	case 1:
+	case 3:
 	{	
 		if (global.wood_count >= _stone_pick_wood && global.stone_count >= _stone_pick_stone)
 		{
@@ -45,13 +81,13 @@ switch (selected)
 	} break;
 	
 	// Steel Axe
-	case 2:
+	case 4:
 	{
 		if (global.wood_count >= _steel_axe_wood && global.iron_count >= _steel_axe_iron)
 		{
 			// Craft
 			obj_player.weapon = obj_steel_axe;
-			scr_pickup(9);
+			scr_pickup(8);
 			
 			// Remove Wood
 			global.wood_count -= _steel_axe_wood;
@@ -63,13 +99,13 @@ switch (selected)
 	} break;
 	
 	// Steel Pick
-	case 3:
+	case 5:
 	{
 		if (global.wood_count >= _steel_pick_wood && global.stone_count >= _steel_pick_iron)
 		{
 			// Craft
 			obj_player.weapon = obj_steel_pick;
-			scr_pickup(10);
+			scr_pickup(9);
 			
 			// Remove Wood
 			global.wood_count -= _steel_pick_wood;

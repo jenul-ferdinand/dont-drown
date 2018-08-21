@@ -8,10 +8,10 @@ if (instance_exists(obj_player))
 	{
 		// Change To The Chase State
 		state = scr_enemy_chase_state;
-		
-		// Change Target
-		targetX = obj_player.x;
-		targetY = obj_player.y;
+		// Change Target To Player
+		var dir = point_direction(x, y, obj_player.x, obj_player.y);
+		x_axis = lengthdir_x(1, dir);
+		y_axis = lengthdir_y(1, dir);
 	}
 	// If You Cant See The Player
 	else

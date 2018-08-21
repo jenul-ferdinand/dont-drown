@@ -4,9 +4,9 @@ if (global.show_inv == true)
 	// Draw The Black Rectangle
 	var x1, x2, y1, y2;
 	var rectangle_height = 280;
-	x1 = view_xport[0];
-	x2 = x1 + view_wport[0];
-	y1 = view_yport[0];
+	x1 = view_xport[0] + 10;
+	x2 = x1 + 610;
+	y1 = view_yport[0] + 10;
 	y2 = y1 + rectangle_height;
 	
 	draw_set_colour(c_black);
@@ -86,8 +86,20 @@ if (global.show_inv == true)
 		"Iron: " + string(global.iron_count),
 		c_white, c_black
 	);
+	var mousex = device_mouse_x_to_gui(0);
+	var mousey = device_mouse_y_to_gui(0);	
+	// Draw The Enter Crafting Button
+	var spr = draw_sprite(spr_enter_crafting, 0, 1125, 500);
+	if (mousex > 1025) and (mousex < 1225) and (mousey > 450) and (mousey < 550)
+	{
+		if (mouse_check_button_pressed(mb_left))
+		{
+			global.show_inv = false;
+			crafting_ui.show_gui = true;
+		}
+	}
 	
 	draw_set_font(-1);
-	display_set_gui_size(640 , 360);
+	display_set_gui_size(640, 360);
 }
 

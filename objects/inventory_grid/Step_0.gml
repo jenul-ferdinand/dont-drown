@@ -10,3 +10,12 @@ if (global.show_inv == true)
 		crafting_ui.show_gui = !crafting_ui.show_gui;
 	}
 }
+
+if (global.show_inv == true)
+{
+	camera.mode = cam_mode.follow_object;
+}
+else 
+{
+	camera.mode = cam_mode.follow_mouse_peek;
+}

@@ -96,7 +96,7 @@ if (image_index >= first_index and image_index < last_index)
 			image_xscale = 1.5;
 			image_yscale = 1.5;
 			// Shake amounts
-			var shake_amount = 6.5;
+			var shake_amount = 4.5;
 			
 			#region Stone Node
 			if (instance_exists(pick_parent) or (instance_exists(obj_hands)))
@@ -110,8 +110,11 @@ if (image_index >= first_index and image_index < last_index)
 					shake = shake_amount;
 					
 					// Hit
-					if (!hit) {hit = true;}
-					else {hit = false;}
+					if (!hit) {
+						hit = true;
+					} else {
+						hit = false;
+					}
 				}
 			}
 			#endregion
@@ -170,24 +173,21 @@ if (image_index >= first_index and image_index < last_index)
 						alarm[1] = 20;
 						// Hit Flash
 						alarm[2] = 1;
-					
-						//Debug
-						show_debug_message("ChickenHP: " + string(hp));
 					}
 				}
 			}
 			#endregion
 			
-			#region Slime
-			// Slime
+			#region Enemies
+			// Enemies
 			if (obj_player.weapon != 0)
 			{		
-				with(obj_enemy_slime)
+				with(par_enemy)
 				{
 					if (place_meeting(x, y, obj_damage))
 					{
 						// Weapon Damage Type
-						wep_damage_slime_switch();
+						wep_damage_brawuht_switch();
 						
 						// Screen Shake
 						shake = shake_amount - 3;
@@ -197,9 +197,6 @@ if (image_index >= first_index and image_index < last_index)
 						alarm[4] = 20;
 						// Hit Flash
 						alarm[2] = 1;	
-						
-						// Debug
-						// show_debug_message("SlimeHP: " + string(hp));
 					}
 				}
 			}

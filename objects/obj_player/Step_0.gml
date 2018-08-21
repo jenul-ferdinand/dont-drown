@@ -4,5 +4,15 @@ wep_attack_cooldown();
 // Run State
 script_execute(state);
 // Death
-if (global.player_hp <= 0) { instance_destroy(); }
+if (hp <= 0) {
+	game_restart();
+}
+
+// Check For Ground Tile Collision
+if (tilemap_get_at_pixel(layer_tilemap_get_id("Island"), x, y)) { 
+	grounded = true; 
+} else { 
+	grounded = false; 
+}
+
 

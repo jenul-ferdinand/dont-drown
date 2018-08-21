@@ -1,25 +1,31 @@
 ///scr_move_state();
 scr_get_input();
+image_speed = 0;
+if (global.show_inv == true) exit;
+if (crafting_ui.show_gui == true) exit;
 
 // On The Ground
 if (grounded)
 {
-	// Weapon Equipped
-	if (weapon != 0)
+	if (obj_cursor.image_index != 0)
 	{
-		// Inventory Not Open
-		if (global.show_inv == false)
+		// Weapon Equipped
+		if (weapon != 0)
 		{
-			// Attack Key Pressed
-			if (attack_key) && (cooldown <= 0)
+			// Inventory Not Open
+			if (global.show_inv == false)
 			{
-				cooldown += 100;
-				//Play The Audio
-				audio_play_sound(snd_sword_swing_1, 99, 0);
-				// Reset Image Index
-				image_index = 0;
-				// Switch States
-				state = scr_attack_state;
+				// Attack Key Pressed
+				if (attack_key) && (cooldown <= 0)
+				{
+					cooldown += 100;
+					//Play The Audio
+					audio_play_sound(snd_sword_swing_1, 99, 0);
+					// Reset Image Index
+					image_index = 0;
+					// Switch States
+					state = scr_attack_state;
+				}
 			}
 		}
 	}

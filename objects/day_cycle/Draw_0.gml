@@ -26,7 +26,7 @@ if (draw_daylight)
 		gpu_set_blendmode(bm_normal);
 	}
 			
-	with (obj_enemy_slime)
+	with (obj_enemy_brawuht)
 	{
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite(spr_player_glow, 0, x, y);

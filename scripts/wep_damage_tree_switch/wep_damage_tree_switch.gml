@@ -8,6 +8,11 @@ switch (obj_player.weapon)
 		global.wood_count += 5 / 2;
 	break;
 	
+	case obj_wood_axe:
+		hp -= 15 * 0.5;
+		global.wood_count += 8 / 2;
+	break;
+	
 	case obj_stone_axe: 
 		hp -= 20 * 0.5; 
 		global.wood_count += 10 / 2;

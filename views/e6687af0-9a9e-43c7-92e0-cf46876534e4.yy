@@ -4,10 +4,10 @@
     "mvc": "1.1",
     "name": "e6687af0-9a9e-43c7-92e0-cf46876534e4",
     "children": [
-        "3d3ffbcd-ce58-47b7-b832-f157b5776c7d",
-        "4ce5eb15-94a4-42f6-a228-1a87fa8f254d",
-        "06f0f179-c6d2-41fa-aa8d-1db36b4d1be5",
-        "f452c443-bfec-42fe-b485-4bd47f189a5a"
+        "368ecaa4-b0f9-402a-9591-a4b6e17a8524",
+        "4e305821-beea-4267-9b2c-437985b04353",
+        "3f066f82-61cb-4f5c-bff3-942527da32e4",
+        "c6222f4a-6d40-4ee6-887a-eb44a89ecf22"
     ],
     "filterType": "GMSprite",
     "folderName": "Attack",

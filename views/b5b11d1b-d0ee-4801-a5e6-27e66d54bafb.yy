@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "b5b11d1b-d0ee-4801-a5e6-27e66d54bafb",
     "children": [
-        "c4da34d6-91cd-4996-9777-9b302416becd"
+        "c4da34d6-91cd-4996-9777-9b302416becd",
+        "3d3e44f4-ed8c-40e7-ab7e-89f701eb08de"
     ],
     "filterType": "GMScript",
     "folderName": "Crafting",
