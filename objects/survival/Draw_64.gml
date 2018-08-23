@@ -24,7 +24,7 @@ display_set_gui_size(view_wport[0], view_hport[0]);
 #region Oxygen
 if (show_oxygen_bar == true)
 {
-	draw_set_alpha(a);
+	draw_set_alpha(0.3);
 	draw_healthbar(350, 680, 700, 710, global.oxygen, c_black, c_blue, c_blue, -1, 1, 1);
 	draw_set_alpha(1);
 	draw_text_outlined(485, 680, "Oxygen", c_blue, c_black);

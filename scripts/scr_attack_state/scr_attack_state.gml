@@ -45,13 +45,6 @@ if (image_index >= first_index and image_index < last_index)
 	var xx = 0;
 	var yy = 0;
 	var si = 0;
-	/*
-	add a local variable here called si (which stands for sprite_index) and add more obj_damage sprites
-	for all for directions, to fix the glitch where you can hit resource from the side when u are facing
-	up. Use this variable and put it into the sprite_index switch right under this. After you put all
-	four directions into the switch scroll down to where we create the damage object and in the brackets
-	add (sprite_index = si).
-	*/
 	
 	// Hit Box Direction Properties
 	switch (sprite_index)
@@ -109,12 +102,8 @@ if (image_index >= first_index and image_index < last_index)
 					// Screen Shake
 					shake = shake_amount;
 					
-					// Hit
-					if (!hit) {
-						hit = true;
-					} else {
-						hit = false;
-					}
+					// Audio
+					audio_play_sound(snd_stone_hit_1, 99, 0);
 				}
 			}
 			#endregion
@@ -130,9 +119,8 @@ if (image_index >= first_index and image_index < last_index)
 					// Screen Shake
 					shake = shake_amount;
 					
-					// Hit 
-					if (!hit) {hit = true;}
-					else {hit = false;}
+					// Audio
+					audio_play_sound(snd_stone_hit_1, 95, 0);
 				}
 			}
 			#endregion
@@ -148,9 +136,8 @@ if (image_index >= first_index and image_index < last_index)
 					// Screen Shake
 					shake = shake_amount;
 					
-					// Hit
-					if (!hit) { hit = true; }
-					else { hit = false; }
+					// Audio
+					audio_play_sound(snd_wood_hit_1, 95, 0);
 				}
 			}
 			#endregion
@@ -166,7 +153,7 @@ if (image_index >= first_index and image_index < last_index)
 						wep_damage_chicken_switch();
 						
 						// Screen Shake
-						shake = shake_amount - 3;
+						shake = shake_amount;
 					
 						// Knockback
 						movespeed = -2;
@@ -190,13 +177,16 @@ if (image_index >= first_index and image_index < last_index)
 						wep_damage_brawuht_switch();
 						
 						// Screen Shake
-						shake = shake_amount - 3;
+						shake = shake_amount;
 					
 						// Knock Back
 						movespeed = -1;
 						alarm[4] = 20;
 						// Hit Flash
-						alarm[2] = 1;	
+						alarm[2] = 1;
+						
+						// Sound
+						audio_play_sound(snd_hit_hurt_1, 96, 0);
 					}
 				}
 			}

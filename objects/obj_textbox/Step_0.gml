@@ -16,12 +16,12 @@ if (mouse_check_button_pressed(mb_left))
 	}
 	else
 	{
+		// Destroy
 		instance_destroy();
-		
+		// Dont Loop The Textbox
 		if (instance_exists(creator))
 		{
-		// Dont Loop The Textbox
-		creator.alarm[0] = 1;
+			creator.alarm[0] = 1;
 		}
 	}
 }

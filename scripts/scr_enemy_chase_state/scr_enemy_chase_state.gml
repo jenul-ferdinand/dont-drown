@@ -1,5 +1,6 @@
 /// @desc scr_enemy_chase_state()
 scr_check_for_player();
+
 if (!instance_exists(obj_player)) exit;
 
 // Get Length And Direction

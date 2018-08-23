@@ -27,8 +27,8 @@ mouseFace = 0;
 cooldown = 0;
 cooldownRate = 0;
 // Health
-hp = 3;
 maxhp = 6;
+hp = maxhp;
 
 face = RIGHT;
 
@@ -39,6 +39,9 @@ face = RIGHT;
 
 // Create The Intro Speech
 instance_create_layer(x, y, "META", tex_intro);
+
+// Sound Management
+hostile_lifeform_alerted_sndcheck = false;
 
 
 

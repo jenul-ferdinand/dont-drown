@@ -22,7 +22,7 @@ x_axis = 0;
 y_axis = 0;
 
 // Combat
-maxhp = 150;
+maxhp = 200;
 hp = maxhp;
 
 // Sprite Control

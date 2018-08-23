@@ -7,7 +7,7 @@ if (hbar_activate == true)
 	draw_healthbar
 	(
 		x - 9, y - 19, x + 9, y - 18, 
-		hp, 
+		hp / 2, 
 		c_black, c_red, c_green, 
 		0, 
 		true, true

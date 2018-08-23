@@ -14,11 +14,12 @@ state = scr_enemy_idle_state;
 alarm[0] = room_speed * irandom_range(2, 5);
 
 // Sight Range
-sight = 64;
+sight = 86;
 
 // Target
 x_axis = 0;
 y_axis = 0;
 
 // Combat
-hp = 100;
+maxhp = 100;
+hp = maxhp;
